@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Ladies Learning Code</title>
+  <link rel="stylesheet" href="css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS3 -->
+  <script src="scripts/prefixfree.min.js"></script>
+  
+  <!-- Ouvre tous les liens dans une autre fenêtre -->
+  <base target="_blank">
+</head>
+
+<body>
+    <main>
+    	<section class="slide" data-markdown>
+        <script type="text/template">
+        #Faire une référence au CSS - inline et internal
+
+        Il y a trois façons d'inclure du CSS dans une page HTML.
+
+        ##INLINE (en ligne)
+        Peut être ajoutée à tout élément HTML à l'aide de l'*attribut* `style`.
+
+        ```
+        <p style="color: blue;">J'écris du CSS!</p>
+        ```
+
+        Cette technique n'est pas courante, car elle est difficile à gérer. Néanmoins, elle est bonne à savoir, au cas où.
+
+        ##INTERNAL (interne)
+        Utilise la balise `<style>` et est comprise dans l'élément `<head>`.
+
+        ```    
+        <head>
+          <title>Titre de la page</title>
+          <style>
+            h1 {
+              font-size: 16px;
+            }
+          </style>
+        </head>
+        
+        <body>
+          <p>Paragraphe simple.</p>
+        </body>
+        ```
+
+        Nous recommandons cette technique plutôt que celle en ligne (*inline*). Toutefois, elle n'est pas efficace, car si vous avez plusieurs pages Web, ce style empêche les changements. Par conséquent, toutes les modifications devront être répétées sur toutes les pages.
+      </script>
+    </section>
+
+  </main><!-- section principale cls -->
+  
+  <script src="scripts/jquery-1.11.0.min.js"></script>
+  <script src="scripts/slideshow.js"></script>
+
+  <!-- Enlevez les balises de commentaire des modules d'extension dont vous aurez besoin --!>
+
+  <script src="scripts/plugins/css-edit.js"></script>
+  <script src="scripts/plugins/css-snippets.js"></script>
+  <script src="scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="scripts/plugins/markdown/marked.js"></script>
+  <script src="scripts/plugins/markdown/markdown.js"></script>
+  <script src="scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Sélectionne tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>

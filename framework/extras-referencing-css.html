@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Ladies Learning Code</title>
+  <link rel="stylesheet" href="css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="scripts/prefixfree.min.js"></script>
+  
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<body>
+    <main>
+    	<section class="slide" data-markdown>
+        <script type="text/template">
+        #Referencing CSS - Inline & Internal
+
+        There are three ways to include CSS in an HTML page.
+
+        ##INLINE
+        Can be added to any HTML element using the `style` *attribute*.
+
+        ```
+        <p style="color: blue;">I'm writing CSS!</p>
+        ```
+
+        This technique is not as common because it's harder to maintain but it's good to know how it works, just in case.
+
+        ##INTERNAL
+        Uses `<style>` and is included in the `<head>` element.
+
+        ```    
+        <head>
+          <title>Page Title</title>
+          <style>
+            h1 {
+              font-size: 16px;
+            }
+          </style>
+        </head>
+        
+        <body>
+          <p>Sample paragraph.</p>
+        </body>
+        ```
+
+        This method is preferred over *inline* css, however it is still inefficient because if you had multiple web pages, the style block and any revisions would have to be replicated on every single page.
+      </script>
+    </section>
+
+  </main><!-- cls main section -->
+  
+  <script src="scripts/jquery-1.11.0.min.js"></script>
+  <script src="scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="scripts/plugins/css-edit.js"></script>
+  <script src="scripts/plugins/css-snippets.js"></script>
+  <script src="scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="scripts/plugins/markdown/marked.js"></script>
+  <script src="scripts/plugins/markdown/markdown.js"></script>
+  <script src="scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>

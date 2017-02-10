@@ -1,0 +1,53 @@
+/* STYLES GLOBAUX
+-----------------------------------------*/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #333333; /* gris presque noir */
+}
+h1,
+h2 {
+  font-family: "Nixie One", serif;
+  font-weight: 300; /* enlève le style gras par défaut */
+  text-transform: uppercase;
+  margin: 0; /* enlève l'espace par défaut */
+}
+a {
+  color: #bf6d50;
+  text-decoration: none; /* enlève le soulignement par défaut */
+}
+header,
+main,
+nav {
+  padding: 20px 30px;
+}
+main {
+  clear: both;
+}
+
+
+/* STYLES D'EN-TÊTE
+-----------------------------------------*/
+header h1 {
+  font-size: 48px;
+}
+header h2 {
+  font-size: 24px;
+}
+header {
+  float: left;
+}
+nav {
+  float: right;
+}
+
+
+/* STYLES DE LA PAGE À PROPOS
+-----------------------------------------*/
+.image-profil {
+  float: left;
+}
+blockquote {
+  clear: both;
+}

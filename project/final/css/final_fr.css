@@ -1,0 +1,152 @@
+/* ----------------------------------------------------
+  Créé par Christina Truong pour Ladies Learning Code
+  http://ladieslearningcode.com
+  http://christinatruong.com
+-------------------------------------------------------*/
+
+
+/* STYLES GLOBAUX
+-----------------------------------------*/
+html,
+body {
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #333333; /* gris, presque noir */
+}
+h1,
+h2 {
+  font-family: "Nixie One", serif;
+  font-weight: 300; /* enlève le style gras par défaut */
+  text-transform: uppercase;
+  margin: 0; /* enlève l'espace par défaut */
+}
+a {
+  color: #bf6d50;
+  text-decoration: none; /* enlève le soulignement par défaut */
+}
+a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+header,
+main,
+nav {
+  padding: 20px 30px;
+}
+main {
+  clear: both;
+}
+.surligner {
+  color: #bf6d50;
+}
+
+
+/* STYLES D'EN-TÊTE
+-----------------------------------------*/
+header h1 {
+  font-size: 48px;
+}
+header h2 {
+  font-size: 24px;
+}
+header {
+  float: left;
+}
+nav {
+  float: right;
+}
+nav a {
+  padding: 20px;
+}
+
+/* STYLES DE LA PAGE D'ACCUEIL
+-----------------------------------------*/ 
+.accueil {
+  background: url(../images/background-6.jpg) no-repeat 50%;
+  background-size: cover;
+}
+
+/* STYLES DE LA PAGE À PROPOS
+-----------------------------------------*/
+.image-profil {
+  float: left;
+  margin-right: 20px;
+  width: 50%;
+}
+blockquote {
+  clear: both;
+  padding: 5px 150px 0;
+  text-align: center;
+}
+blockquote p {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+/* STYLES DE LA PAGE DE CONTACT
+-----------------------------------------*/
+.contact {
+  background: url(../images/background-8.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.contact main {
+  background: rgba(255, 255, 255, 0.7);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contact main h1 {
+  text-transform: none;
+}
+
+/* styles du formulaire */
+form {
+  width: 400px;
+}
+input,
+textarea {
+  border: 1px solid #BF6D50;
+  width: 400px;
+  margin-bottom: 10px;
+}
+input {
+  height: 20px;
+} 
+textarea {
+  height: 100px;
+}
+button {
+  background: #BF6D50;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+}
+
+
+/* STYLES DU BAS DE PAGE
+-----------------------------------------*/
+/* Bas de page épinglé - http://css-tricks.com/snippets/css/sticky-footer */
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -55px; /* doit être de la même hauteur que le bas de page */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer, 
+.page-wrap:after {
+  height: 55px; /* bas de page de la hauteur que vous voulez */
+}
+footer {
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1px;
+  text-transform: lowercase;
+}
+
+
+
+

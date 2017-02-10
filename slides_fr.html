@@ -1,215 +1,153 @@
-<!DOCTYPE html>
-<html lang="fr">
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Ladies Learning Code</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
   <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
   <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
   <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
   <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
   <link rel="shortcut icon" href="framework/img/favicon.ico">
 
-  <!-- S'occupe des préfixes CSS3T -->
+  <!-- Pour les préfixes CSS3 -->
   <script src="framework/scripts/prefixfree.min.js"></script>
 
   <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
   <base target="_blank">
 </head>
 
-<!-- Minuterie/barre de progression: Définissez la durée de la présentation en minutes à l'aide de « data-duration ». -->
+<!-- Barre de progression / temps : définissez la durée de la présentation en minutes à l'aide de « data-duration ». -->
 <body class="en" data-duration="360">
   <main>
     <section class="slide welcome highlight">
-      <h1><img class="logo-stacked" src="framework/img/llc-logo-stacked-white.png" alt="Logo Ladies Learning Code">Bienvenue!</h1>
-
+      <h1><img class="logo-stacked" src="framework/img/llc-logo-stacked-white.png" alt="Ladies Learning Code logo">Bienvenue!</h1>
+      
       <div class="instructions">
-        <!-- AJOUTEZ L'INFO DU WI-FI ICI -->
-        <h2>Branchez-<br>vous</h2>
-        <p><strong>Wi-Fi:</strong> réseau wi-fi</p>
+        <!-- AJOUTEZ LES INFORMATIONS SUR LE WI-FI ICI -->
+        <!-- <h2>Branchez-vous</h2>
+        <p><strong>Wi-Fi :</strong> réseau wi-fi</p>
         <p><strong>Mot de passe:</strong> mot de passe wi-fi</p>
-        <hr>
-
-        <h2>Télécharger<br> et installer</h2>
+        <hr> -->
+        
+        <h2>À télécharger<br> et à installer :</h2>
         <ol class="downloads">
-          <li>Dossier zip de l'atelier : <a href="https://github.com/ladieslearningcode/llc-interactive-stories-and-game-making/archive/master.zip">[LIEN]</a>
+          <li>Dossier de l'apprenant (fichier zip): <!-- changer le lien vers la version française si possible! --!> <a href="https://github.com/ladieslearningcode/llc-html-css-multi-page-site/archive/master.zip">http://bit.ly/llc-multipage</a>
             <ul>
-              <li>dézippez le dossier de l'atelier (<em>extrayez-le</em> si vous utilisez un PC)</li>
-              <li>ouvrez le fichier <em>slides_fr.html</em> dans le navigateur pour voir les diapositives</li>
+              <li>dézippez le dossier de l'apprenant (<em>Extraire tout </em> si vous êtes sur Windows)</li>
+              <li>ouvrez <strong>slides_fr.html</strong> dans votre navigateur pour voir les diapositives</li>
             </ul>
           </li>
-          <li>Éditeur Atom (seulement en anglais) : <a href="http://atom.io">http://atom.io</a></li>
+          <li>Éditeur Atom : <a href="http://atom.io">http://atom.io</a></li>
           <li>Navigateur Chrome : <a href="https://www.google.ca/chrome/browser/desktop/">https://www.google.ca/chrome</a></li>
           </li>
         </ol>
       </div>
-
       <footer>
         <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
-        <p class="left">Contenu créé par <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
-        <p class="right">Utilisez la flèche gauche <span class="arrow">&#8592;</span> et la flèche droite <span class="arrow">&#8594;</span> pour naviguer</p>
+        <p class="left">Contenu créé par <a href="http://christinatruong.com">Christina Truong</a> pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Utilisez la flèche gauche <span class="arrow">&#8592;</span> ou droite <span class="arrow">&#8594;</span> pour naviguer</p>
       </footer>
-    </section>
-
+    </section> 
+    
     <section class="slide intro">
       <img class="logo" src="framework/img/llc-logo-white.png" alt="Ladies Learning Code logo">
       <h1 class="heading-bg">
-        <span>Histoires interactives et <br>conception de jeu<br> en HTML et en CSS</span>
+        <span>
+          Introduction au HTML et au CSS :<br>
+          Bâtir un site multipages
+        </span>
       </h1>
 
-      <!-- INDIQUEZ LES RENSEIGNEMENTS SUR LA FORMATRICE -->
-      <img class="instructor" src="http://placehold.it/225x225" alt="Instructor Name">
-      <h2><span class="cursive">avec</span> nom de la formatrice</h2>
+      <!-- ENTREZ LES INFORMATIONS À PROPOS DU FORMATEUR -->
+      <!-- <img class="instructor" src="http://placehold.it/225x225" alt="Nom de l'instructeur">
+      <h2><span class="cursive">with</span> Nom de l'instructeur</h2>  
       <ul>
         <li><a href="mailto:">allo@courriel.com</a></li>
-        <li><a href="http://website.com">siteweb.com</a></li>
+        <li><a href="http://siteweb.com">siteweb.com</a></li>
         <li><a href="http://twitter.com/">@twitter</a></li>
-      </ul>
+      </ul> -->
 
       <div class="sponsor">
-        <p>En collaboration avec<br> <img src="framework/img/shopify-logo-white.svg" alt="Telus"></p>
+        <p>En collaboration avec<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
       </div>
       <footer>
         <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
-        <p class="left">Contenu créé par </a> <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
-        <p class="right">Utilisez la flèche gauche <span class="arrow">&#8592;</span> et la flèche droite <span class="arrow">&#8594;</span> pour naviguer</p>
+        <p class="left">Contenu créé par <a href="http://christinatruong.com">Christina Truong</a> pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Utilisez la flèche gauche <span class="arrow">&#8592;</span> ou droite <span class="arrow">&#8594;</span> pour naviguer</p>
       </footer>
-    </section>
+    </section> 
 
-    <section class="slide title" data-markdown>
+    <section class="slide centered project" data-markdown>
       <script type="text/template">
-        #Présentations
-      </script>
-    </section>
+        #Projet du jour
 
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # Ordre du jour
+        Suivez ce [lien](project/final/index_fr.html) pour voir le projet en entier!
 
-        <div class="table-of-contents"></div> 
-
-        <!-- Intro + Exemples de projets + Invité (10 h)
-
-        Recherche d'idées + planification (10 h 15)
-
-        Intro au HTML et au CSS (10 h 45)
-
-        Dîner (12 h 30)
-
-        Création! (13 h 15)
-
-        Démos + Publication (13 h 30) -->
-
-      </script>
-    </section>
-
-    <section class="slide title" data-markdown data-toc>
-      <script type="text/template">
-        #Pourquoi créer un jeu?
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # Le pouvoir des jeux vidéo
-        
-        Cette année, nous poursuivons notre mission d'enseigner des compétences du 21e siècle à l'aide d'un des moyens d'expression numériques les plus populaires: le jeu vidéo.
-
-        <ul>
-          <li class="delayed">Façon puissante de faire passer un message, une cause ou une idée dans un monde numérique qui déborde de contenu</li>
-          <li class="delayed">Selon l'[Association canadienne du logiciel de divertissement](http://theesa.ca/wp-content/uploads/2015/11/ESAC_2015_Booklet_FRENCHVersion04_DigitalSpreads.pdf), plus de 54 % des Canadiens sont considérés comme des « joueurs »</li>
-          <li class="delayed">Parmi ces 54 %, environ la moitié sont des femmes</li>
-          <li class="delayed">Néanmoins, les femmes ne comptent que pour ***3 % des créateurs de jeux vidéo dans l'industrie des technologies*** </li>
-        </ul>
-
+        ![page d'accueil du projet](framework/img/workshop/project1.jpg) ![page À propos du projet](framework/img/workshop/project2.jpg) ![page Contact du projet](framework/img/workshop/project3.jpg)
       </script>
     </section>
     
-
-    <section class="slide title" data-markdown data-toc>
-      <script type="text/template">
-        #ON COMMENCE!
-      </script>
-    </section>
-
     <section class="slide" data-markdown>
       <script type="text/template">
-        # Exemples de projets
-
-        Aujourd'hui, nous aurons l'occasion de créer des jeux, des histoires interactives ou des questionnaires qui concernent une cause, une communauté ou un message que vous aimeriez partager. Voici des exemples de projets:
-
-        <ol class="examples">
-          <li>[Questionnaire](project/reference/game01-quiz/depart.html) <span class="difficulty">Niveau de difficulté: <i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></span> </li>
-          
-          <li>[Choisissez votre propre aventure](project/reference/game02-textadventure/depart.html) <span class="difficulty">Niveau de difficulté : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></span></li>
-          
-          <li>[Jeu d'action](project/reference/game03-action/depart.html) <span class="difficulty">Niveau de difficulté : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><br>(Essayez cela après avoir créé un questionnaire ou une histoire)</span></li>
-        </ol>
-
-        ##Remarquez-vous quelque chose à propos de la structure de ces exemples? 
-        <p class="delayed">Ce sont des **pages simples** liées les unes aux autres pour créer une grosse histoire.</p><!-- .element: class="delayed" -->
-
+        #Plan de cours
+        
+        <div class="table-of-contents"></div> 
       </script>
     </section>
-
+    
     <section class="slide title" data-markdown data-toc>
       <script type="text/template">
-        #Remue-méninges
+        #Pour commencer
       </script>
     </section>
-
-    <section class="slide centered" data-markdown data-toc>
+    
+    <section class="slide website-table" data-markdown>
       <script type="text/template">
-        <img src="framework/img/story-planning_fr.jpg" alt="Planification de l'histoire">
-      </script>
-    </section>
+        #Mais qu'est-ce qu'un site Web?
 
-    <section class="slide" data-markdown>
+        En résumé, un site Web est une collection de pages Web ou de *documents HTML* ressemblant beaucoup à un dossier de fichiers.
+
+        ![Dossier de fichiers](framework/img/workshop/folder-structure.jpg)
+
+        | monsite.com/index_fr.html | monsite.com/apropos_fr.html | monsite.com/contact_fr.html |
+        |------------|------------|--------------|
+        | ![page d'accueil du projet](framework/img/workshop/project1.jpg) | ![page d'accueil du projet](framework/img/workshop/project2.jpg) | ![page d'accueil du projet](framework/img/workshop/project3.jpg) |
+      </script>
+    </section> 
+
+    <section class="slide basic-web-page" data-markdown>
       <script type="text/template">
-        #Remue-méninges (30 minutes)
+        #Page Web de base : HTML, CSS, JavaScript
 
-        Avant de s'attaquer au code, il faut prendre le temps de planifier son projet. Prenez un crayon et du papier, cherchez des idées avec votre voisine, et créez!
+        Le **HTML (Hypertext Markup Language)** est un langage de _balisage_ utilisé pour définir du contenu.
 
-        <ul>
-          <li class="delayed">Quelle **histoire** voulez-vous créer?</li>
-          <li class="delayed">Quelle **cause** voulez-vous aborder?</li>
-          <li class="delayed">Quel type de page voulez-vous **créer**? Une histoire interactive, un jeu ou un questionnaire?</li>
-          <li class="delayed">Quel est l'**itinéraire** de l'histoire, du jeu ou du questionnaire?</li>
-          <li class="delayed">Quelles sont les **pages** nécessaires pour réaliser le projet?</li>
-        </ul>
+        <p class="example">Je ne suis qu'un paragraphe.</p>
 
-        <p class="delayed">Pensez à l'histoire et à la façon dont les gens découvriront votre histoire, votre jeu ou votre questionnaire. Consultez la <a href="slides_fr.html#slide8">diapo n°8</a> pour voir quelques exemples.
+        Le **CSS (Cascading Style Sheets, feuilles de style en cascade)** est un langage de _feuilles de style_ utilisé pour définir la présentation et l'apparence d'un site.
 
-        ---
-        ###Ressources (en anglais)
-        * [Everybody Wants to be a Cat](http://play.textadventures.co.uk/Play.aspx?id=l7behin2oewdjiyyluan8w)
-        * [Robin Hood](http://play.textadventures.co.uk/Play.aspx?id=kybrmvp890ofqeqrmjj9-g)
-        * [Magical High School](http://play.textadventures.co.uk/Play.aspx?id=xqc_5q0wee_sxs8vkorenq)
-        * [Horror Mystery](http://adamcadre.ac/if/905.html)
+        <p class="example css">Je suis un paragraphe avec du <span>style</span>.</p>
+
+        Le **JavaScript** est un langage de _programmation_ utilisé pour définir le comportement d'un site et y ajouter des fonctionnalités.
+
+        <p class="example" onclick="alert('Cliqué!');">Je suis un paragraphe pouvant être cliqué. Essayez donc!</p>
       </script>
-    </section>
-
-
-    <section class="slide title" data-markdown data-toc>
-      <script type="text/template">
-        #Environnement de programmation
-        ##Navigateurs Web + éditeurs de texte
-      </script>
-    </section>
+    </section> 
 
     <section class="slide" data-markdown>
       <script type="text/template">
         #Navigateurs Web
+        
+        La fonction principale d'un [navigateur](http://browsehappy.com) est de présenter une *ressource Web* dans une fenêtre. 
+        
+        Choisissez un navigateur Web moderne, comme Chrome ou Firefox, prenant en charge les standards Web actuels et incluant des outils de développement pour enrichir la navigation.
 
-        La fonction principale d'un [navigateur](http://browsehappy.com) est d'afficher une *ressource Web* dans une fenêtre.
-
-        Choisissez un navigateur Web moderne qui respecte les normes actuelles du Web et qui prend en charge des outils de développement pour une bonne expérience de programmation.
-
-        Dans [Google Chrome](https://www.google.com/intl/efr-CA/chrome/browser/) (et d'autres navigateurs), il est possible de visionner le code source de *n'importe quelle* page Web. Faites un clic droit/tapez deux fois n'importe où dans le navigateur et sélectionnez **Code source de la page**. C'est du HTML!
-
+        Vous pouvez aussi voir la source de *n'importe quelle* page Web. Vous n'avez qu'à faire un clic droit ou taper deux fois n'importe où dans le navigateur et sélectionner **Afficher le code source de la page**. 
+        
+        C'est du HTML!
+        
         ---
-        ###Ressource (en anglais)
+        ###Ressource 
         http://browsehappy.com
       </script>
     </section>
@@ -217,16 +155,18 @@
     <section class="slide" data-markdown>
       <script type="text/template">
         #Outils de développement
+        
+        La plupart des navigateurs Web modernes comprennent des outils de développement. Ces outils vous permettent d'*inspecter* toutes les pages Web, ce qui facilite le débogage et l'essai du code.
+        
+        Aujourd'hui, nous utiliserons le navigateur Chrome. Il y a deux façons d'accéder aux outils de développement de Chrome :
 
-        Allez plus loin en *inspectant* les pages Web avec les **outils de développement de Chrome**. Ceux-ci facilitent le débogage et le testage et vous pouvez y accéder de deux façons :
-
-        * Option 1: Faites un clic droit/tapez deux fois et cliquez sur **Inspecter**
-        * Option 2: **Ctrl + MAJ + i** (PC) / **Cmd + Option + I** (Mac)
-
+        * Option 1 : faites un clic droit / tapez deux fois sur une page Web et cliquez sur **Inspecter**
+        * Option 2 : **Ctrl + Shift + I** (PC) / **Cmnd + Option + I** (Mac)
+        
         ---
-        ###Resources
-        * Afin de configurer Chrome comme navigateur par défaut, suivez [ces étapes](https://support.google.com/chrome/answer/95417?hl=fr).
-        * Pour en savoir plus à propos des outils de développement (en anglais): http://discover-devtools.codeschool.com
+        ###Ressources
+        * Pour faire de Chrome votre navigateur par défaut, suivez [ces directives](https://support.google.com/chrome/answer/95417?hl=fr).  
+        * Pour en savoir plus à propos des outils de développement : http://discover-devtools.codeschool.com/
       </script>
     </section>
 
@@ -234,25 +174,25 @@
       <script type="text/template">
         #Éditeur de texte
 
-        * utilisé pour écrire et modifier du code
-        * les éditeurs préinstallés (Bloc notes / TextEdit) n'ont pas beaucoup de fonctions
-        * les éditeurs gratuits et payants comprennent des fonctions telles que le surlignement et des modules pour vous faciliter la tâche
-        * éditeurs recommandés: [Notepad++](http://notepad-plus-plus.org/), [Sublime Text](http://www.sublimetext.com/) (version d'essai sans limite), [Brackets](http://brackets.io) et [TextWrangler](http://www.barebones.com/products/textwrangler/).
+        * On l'utilise pour rédiger et modifier du code
+        * Les éditeurs par défaut (Notepad / TextEdit) ont peu de fonctions
+        * Il y a des options gratuites et payantes comprenant des fonctions et des modules d'extension pour accélérer notre travail
+        * Voici quelques options intéressantes (souvent en anglais seulement) : [Notepad++](http://notepad-plus-plus.org/), [Sublime Text](http://www.sublimetext.com/) (essai gratuit sans limite de temps), [Brackets](http://brackets.io) et [TextWrangler](http://www.barebones.com/products/textwrangler/).
 
-        **[Atom](https://atom.io/)** est complètement gratuit (mais seulement en anglais). Il s'agit de l'éditeur que nous utiliserons aujourd'hui.
-        <span class="note">(Si vous avez un autre éditeur, il fonctionnera aussi, mais les fonctions sont peut-être différentes.)</span>
-
+        **[Atom](https://atom.io/)** est un éditeur entièrement gratuit. Il s'agit de celui-ci que nous utiliserons aujourd'hui. À noter qu'il est exclusivement en anglais.
+        <span class="note">(Si vous utilisez un autre éditeur, celui-ci fonctionnera tout aussi bien, mais certaines fonctions pourraient être légèrement différentes.)</span>
+        
         ---
         ###Truc de pro!
-        Facilitez-vous la tâche avec les [touches de raccourci](keyboard-shortcuts_fr.pdf).
+        Facilitez-vous la tache en utilisant des [touches de raccourci](keyboard-shortcuts_fr.pdf).
       </script>
     </section>
-
+    
     <section class="slide" data-markdown>
       <script type="text/template">
         #À la découverte d'Atom
-
-        L'utilisation d'un bon éditeur de texte et l'apprentissage de ses fonctions rendra votre tâche plus agréable. Aujourd'hui, mettons à jour l'option d'habillage de texte (Soft wrap) pour vous permettre de mieux lire les longs blocs de code et de texte.
+        
+        L'utilisation d'un bon éditeur de texte et l'apprentissage de ses fonctions rendra votre tâche beaucoup plus agréable. Tout d'abord, mettons à jour l'option d'habillage de texte (Soft wrap) pour nous permettre de mieux lire les longs blocs de code et de texte.
 
         Allez dans **Preferences** pour ouvrir les options de personnalisation.
 
@@ -261,12 +201,12 @@
         L'onglet **Settings** (paramètres) s'affiche par défaut. Descendez pour voir l'option d'habillage de texte **Soft Wrap**.
 
         ![](framework/img/workshop/atom-settings.jpg)<!-- .element: width="70%" -->
-
+          
         Assurez-vous que la case **Soft Wrap** est cochée.
-
+        
         ![](framework/img/workshop/atom-soft-wrap.jpg)<!-- .element: width="70%" -->
-
-        ---
+        
+       ---
         ###Ressources (en anglais)
 
         *   [Documentation d'Atom](https://atom.io/docs)
@@ -278,198 +218,185 @@
     </section>
 
 
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Organisation du dossier et des fichiers
+
+        À l'intérieur du dossier que vous avez téléchargé aujourd'hui, il y a de nombreux dossiers contenant des fichiers différents.
+        
+        ```
+        llc-html-css-multi-page-site-master-fr
+          |-- framework // Contient les fichiers nécessaires pour afficher les diapositives. Ne les modifiez pas!
+          |-- project // Contient les fichiers d'exercice pour l'atelier. (images et fichiers CSS et HTML)
+          |-- slides_fr.html // Le fichier que vous consultez en ce moment même!
+        ```
+
+        Ouvrez le dossier `project` dans l'éditeur de texte pour modifier votre projet.
+        Allez dans **File** > ** Add Project Folder**. Une fenêtre apparaîtra.
+        
+        ![](framework/img/workshop/editor-add-project-1.jpg)
+        
+        * naviguez jusqu'au dossier **llc-html-css-multi-page-site-master-fr**
+        * sélectionnez le dossier **project** et cliquez sur **Open**
+        
+        Les fichiers apparaîtront maintenant dans la barre latérale.
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Organisation du dossier et des fichiers
+        
+        La structure de votre dossier de projet ressemblera à ceci :
+        
+        ```
+        |-- project
+          |-- css // Les fichiers CSS sont ici.
+          |-- examples // Les fichiers d'exemple pour chaque exercice.
+          |-- final // Exemple de projet complété.
+          |-- images // Exemples d'images pour votre projet. Vous pouvez aussi ajouter les vôtres ici.
+          |-- index_fr.html // La page d'accueil de votre site.
+        ```
+        
+        Le dossier **examples** contient les solutions pour chaque exercice.  
+        Essayez de ne pas aller voir les solutions à moins que vous soyez **vraiment** coincé.
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Organisation du dossier et des fichiers
+        
+        Ouvrez **index_fr.html** dans le navigateur.
+        
+        * allez dans l'Explorateur Windows ou Finder
+        * naviguez jusqu'au dossier **llc-html-css-multi-page-site-master-fr > project**
+        * double cliquez sur **index_fr.html** pour l'ouvrir dans votre navigateur par défaut<br>
+        <span class="note">(Si Chrome n'est pas votre navigateur par défaut, faites un clic droit ou tapez deux fois sur **index_fr.html** et sélectionnez <br>**Ouvrir avec > Chrome**)</note>
+
+        Vous devriez voir ceci dans votre navigateur :
+
+        ![exemple de début de projet](framework/img/workshop/project-start.jpg)
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Effectuer des changements
+        
+        Voici comment effectuer des changements :
+        
+        1. mettez à jour le code dans l'éditeur  
+        2. enregistrez les changements (le fichier)
+        3. rafraîchissez le navigateur
+        4. recommencez
+        
+        Essayez de remplacer « Your name here » par *votre* nom!
+        ```
+        <h1>Votre nom ici</h1>
+        ```
+        ---
+        ###Truc de pro! Utilisez des touches de raccourci.
+        * **ctrl/cmnd + s** pour sauvegarder  
+        * **ctrl/cmnd + r** pour rafraîchir le navigateur
+
+        <div class="presenter-notes">
+        Dites eux apprenants qu'il y aura bientôt un exercice pour mettre à jour toute la page. Cette diapositive ne sert qu'à leur faire découvrir la procédure de mise à jour/sauvegarde/rafraîchissement et ralentir un peu le rythme du cours.
+        </div>
+      </script>
+    </section> 
 
     <section class="slide title" data-markdown data-toc>
       <script type="text/template">
-        #Intro au HTML
-        ##HyperText Markup Language
+      #Qu'est-ce que le HTML?
+      ##La couche de contenu
       </script>
-    </section>
-
-    <section class="slide side-by-side" data-markdown>
-      <script type="text/template">
-        #HTML et CSS
-
-        Voici à quoi ressemble le site Web de Ladies Learning Code avec le CSS et sans le CSS!
-
-        ![](framework/img/workshop/llc-no-css.jpg)
-        ![](framework/img/workshop/llc-css.jpg)
-      </script>
-    </section>
-
+    </section> 
+    
     <section class="slide" data-markdown>
       <script type="text/template">
         #Syntaxe du HTML
 
         Les balises s'écrivent avec des chevrons `< >` et une barre oblique `/` pour la balise de fermeture. Apprenez à connaître ces touches! (Image: clavier Apple, français (Canada))
 
-        ![touches de clavier Mac](framework/img/workshop/keyboard-html_fr.png)<!-- .element: width="70%" -->
+        ![touches de clavier Mac](framework/img/workshop/keyboard-html_fr.png)<!-- .element: width="75%" -->
       </script>
     </section>
-
+    
     <section class="slide" data-markdown>
       <script type="text/template">
-        #HTML: le contenu
+        #Syntaxe du HTML
+        
+         Les balises viennent habituellement en paire: une balise d'ouverture et une balise de fermeture pour habiller (*wrap*) le contenu. Veuillez noter que la balise de fermeture prend une barre oblique vers l'avant (`/`).
 
-        Les balises viennent habituellement en paire: une balise d'ouverture et une balise de fermeture pour habiller (*wrap*) le contenu. Veuillez noter que la balise de fermeture prend une barre oblique (`/`).
-
+        ```xml
+        <tag> <-- balise d'ouverture --- balise de fermeture --> </tag>
         ```
-        <tag> balise d'ouverture --- balise de fermeture </tag>
-        ```
 
-        Les *balises* HTML décrivent le contenu pour le navigateur Web. 
+       Les *balises* HTML décrivent le contenu pour le navigateur Web. 
         ```
         <h1>Cette balise est un en-tête</h1>
         <p>Cette balise est pour les paragraphes.</p>
         ```
       </script>
     </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Écrire du HTML
+
+        Pour vous assurer que vos balises sont bien fermées et pour minimiser les erreurs, écrivez les chevrons d'ouverture et de fermeture *en premier*.
+        
+        Puis, placez le curseur entre les balises pour ajouter le texte.
+
+        ![balises d'ouverture et de fermeture](framework/img/workshop/writing-html.gif)
+        
+        ---
+        ###Truc de pro!
+        Dans plusieurs éditeurs de texte, vous n'avez qu'à taper le **nom** de la balise et à appuyer sur « tab » pour créer la balise. Essayez ça en tapant `p` et en appuyant sur « tab »!
+      </script>
+    </section> 
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Balises emboîtées
+        #Hiérarchie des balises HTML
 
-        Les balises peuvent être *emboîtées* à l'intérieur d'autres balises, comme cela :
-
-        ```
-        <extérieure>contenu extérieur <intérieure>contenu intérieur</intérieure> contenu extérieur</extérieure>
-        ```
-
-        L'emboîtement de balises créé une hiérarchie, que l'on appelle aussi une relation *parent*-*enfant*.
-
-        La balise intérieure est l'enfant de la balise extérieure, le parent.
-
+        Quand les balises HTML sont emboîtées, celles-ci développent une hiérarchie ressemblant à celle d'une famille avec des ancêtres, des parents, des enfants, des frères, etc.
+        
         ```
         <parent>
           <enfant></enfant>
         </parent>
-        ```
-      </script>
-    </section>
+        ```    
+        En emboîtant des balises, faites une indentation (tab) dans le code pour en faciliter la lecture.
 
+        ![emboîter des balises](framework/img/workshop/writing-nested-tags.gif)
+      </script>
+    </section> 
+    
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Organisaiton du code
+        #Commentaires HTML
 
-        Le HTML a été créé pour être lu par les navigateurs Web, pas par les humains. Les navigateurs comprennent donc parfaitement la ligne suivante:
+        Parfois, nous aimons nous laisser des notes ou en laisser à d'autres, mais nous ne voulons pas que celles-ci s'affichent dans le navigateur. Dans cette optique, les commentaires peuvent servir à :
+
+        * cacher du code pour une utilisation ultérieure
+        * laisser des notes
+        * organiser le document
+
+        Les commentaires commencent par `<!--` et se terminent par `-->`.
 
         ```
-        <!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><title></title></head><body></body></html>
-        ```
-
-        Toutefois, pour nous, il est plus facile de lire du code HTML avec des espaces. Quand vous emboîtez des balises, ajoutez une espace.
-
-        ```
-        <baliseextérieure>
-          <baliseintérieure>
-          </baliseintérieure>
-        </baliseextérieure>
+        <!-- Voici mon commentaire. Les commentaires doivent toujours être écrits entre les tirets. -->
         ```
       </script>
-    </section>
-
-    <section id="basic-tags" class="slide" data-markdown>
-      <script type="text/template">
-        #Balises HTML de base
-
-        Les balises suivantes doivent se trouver dans **tous** les documents HTML.
-
-        ```
-        <!DOCTYPE html>
-        <html lang="fr">
-          <head>
-            <meta charset="UTF-8">
-            <title></title>
-          </head>
-          <body>
-            <!-- contenu de page ici (ceci est un commentaire HTML, en passant) -->
-          </body>
-        </html>
-        ```
-        (Nous aborderons ces balises très bientôt.)<!-- .element: class="note" -->
-
-        Pour créer une page HTML, vous n'avez qu'à enregistrer un document avec l'extension de fichier `.html`.
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-      #Mise sur pied du projet
-
-      À l'intérieur du dossier que vous avez téléchargé, ouvrez le dossier **project** dans l'éditeur de texte pour modifier le projet.
-
-      ```html
-      llc-interactive-stories-and-game-making
-        |-- framework // Contient les fichiers nécessaires pour la présentation. Ne modifiez rien dans ce dossier!
-        |-- project // Contient les exercices et les fichiers de l'atelier. (images, CSS et HTML)
-        |-- slides_fr.html // Le fichier que vous lisez en ce moment!
-      ```
-
-      Allez dans **File** > ** Add Project Folder**. Une fenêtre apparaîtra.
-
-      ![](framework/img/workshop/editor-add-project-1.jpg)
-
-      Ensuite:
-
-      * allez dans le dossier **llc-interactive-stories-and-game-making**
-      * sélectionnez **project**
-      * cliquez **Open**
-
-      Les fichiers apparaissent maintenant dans la barre latérale.
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Mise sur pied du projet
-
-        La structure du dossier de votre projet ressemblera à ceci:
-
-        ```html
-        project
-          |-- images
-          |-- reference
-        ```
-        
-        Le dossier **project** est l'endroit où se trouvera chaque partie de votre histoire.
-
-        Le dossier **images** contient une sélection d'images que vous pouvez utiliser dans votre projet (vous pouvez aussi en ajouter pendant les exercises).
-
-        Le dossier **reference** contient les réponses aux exercices et les exemples de projets.
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Exercice de groupe n°1: Créez la page de départ de votre projet (5 minutes)
-
-        1. Dans l'éditeur de texte, créez un nouveau fichier (**File** > **New File**)
-        1. Sauvegardez-le sous le nom `depart.html` (**File** > **Save**)
-        1. Ajoutez toutes les balises HTML de base. Référez-vous à [cette diapositive](slides_fr.html#basic-tags).
-        1. *Entre* les balises `<title></title>`, ajoutez un *titre de page* (title) qui représente le contenu de votre site Web. Par exemple:
-          ```
-          <title>Choisissez votre propre aventure</title>
-          ```
-        1. Ouvrez `depart.html` dans le navigateur.
-          * allez dans l'Explorateur Windows ou dans Finder
-          * allez dans le dossier **llc-interactive-stories-and-game-making > project**
-          * double-cliquez sur **depart.html** pour l'ouvrir dans votre navigateur par défaut
-          <br><span class="note">(Si Chrome n'est pas votre navigateur par défaut, faites un clic droit/tapez deux fois sur **depart.html** et sélectionnez **Ouvrir avec > Chrome**)</span>
-
-        Comme il n'y a pas encore de page avec du *contenu*, le navigateur affichera une page blanche. Le *titre* de la page s'affichera dans la barre supérieure/l'onglet du navigateur.
-
-        ![exercise 1 example](framework/img/exercise-01-example_fr.png)
-      </script>
-    </section>
-
+    </section> 
+    
     <section class="slide highlighted-tags" data-markdown>
       <script type="text/template">
-        #Le Doctype
+        #Document HTML de base
 
-        * pas une balise HTML, doit être le premier élément du code
-        * indique au navigateur la version d'HTML avec laquelle votre page est écrite
-        * l'exemple ci-dessous utilise la version HTML5
+        Nous venons tout juste de voir ces balises dans le fichier **index_fr.html** du projet. Ces balises sont obligatoires dans toutes les pages Web. La première ligne, le `DOCTYPE`, indique au navigateur la version du HTML dans laquelle la page a été écrite. 
 
         <pre><code><strong>&lt;!DOCTYPE html&gt;</strong>
         &lt;html lang=&quot;fr&quot;&gt;
@@ -478,7 +405,7 @@
             &lt;title&gt;&lt;/title&gt;
           &lt;/head&gt;
           &lt;body&gt;
-            &lt;!-- le contenu de la page va ici --&gt;
+            &lt;!-- contenu de la page ici --&gt;
           &lt;/body&gt;
         &lt;/html&gt;
         </code></pre>
@@ -487,11 +414,10 @@
 
     <section class="slide highlighted-tags" data-markdown>
       <script type="text/template">
-        #L'élément HTML
+        #L'ÉLÉMENT HTML
 
-        * toujours la première balise HTML, indique que le document est écrit en HTML
-        * l'élément racine et l'ancêtre (parent) de tous les éléments, car tout est *emboîté* à l'intérieur de cette balise
-        * l'*attribut* `lang` indique la langue utilisée (nous reviendrons sur les attributs bientôt)
+        * identifie le document comme étant du HTML : toutes les balises sont *emboîtées* à l'intérieur de celui-ci
+        * l'attribut (*attribute*) `lang` définit la langue du document (nous aborderons les attributs bientôt)
 
         <pre><code>&lt;!DOCTYPE html&gt;
         <strong>&lt;html lang=&quot;fr&quot;&gt;</strong>
@@ -500,7 +426,7 @@
             &lt;title&gt;&lt;/title&gt;
           &lt;/head&gt;
           &lt;body&gt;
-            &lt;!-- le contenu de la page va ici --&gt;
+            &lt;!-- contenu de la page ici --&gt;
           &lt;/body&gt;
         <strong>&lt;/html&gt;</strong>
         </code></pre>
@@ -509,14 +435,11 @@
 
     <section class="slide highlighted-tags" data-markdown>
       <script type="text/template">
-        #L'élément HEAD
+        #L'ÉLÉMENT HEAD
 
-        * comprend des informations sur la page, mais *n'affiche pas de contenu*
-        * l'élément titre (balises `<title></title>` ) est le seul élément nécessaire
-          * définit le titre de la page Web/du document
-          * affiché dans l'onglet du navigateur, dans les signets et dans les résultats des moteurs de recherche
-        * Le CSS, JavaScript et les [métadonnées](http://www.alsacreations.com/article/lire/628-balises-meta.html) vont aussi entre ces balises
-        * le contenu de la page ne va *jamais* ici
+        * comprend des informations à propos de la page (p. ex. : fichiers CSS)
+        * La balise `<title>` est obligatoire, car elle définit le titre du document
+        * La balise `<title>` (le titre) est affichée dans l'onglet du navigateur, dans les marque-pages et les résultats de recherche
 
         <pre><code>&lt;!DOCTYPE html&gt;
         &lt;html lang=&quot;fr&quot;&gt;
@@ -534,11 +457,11 @@
 
     <section class="slide highlighted-tags" data-markdown>
       <script type="text/template">
-        #L'élément BODY
+        #L'ÉLÉMENT BODY
 
-        Tout le contenu qui doit être affiché dans la fenêtre du navigateur va entre les balises `<body></body>`.
+      Tout le contenu qui doit être affiché dans la fenêtre du navigateur va entre les balises `<body></body>`.
 
-        Ces balises sont aussi connues comme étant les balises du d'*affichage*.
+        Ces balises sont aussi connues comme étant les balises d'*affichage*.
 
         <pre><code>&lt;!DOCTYPE html&gt;
         &lt;html lang=&quot;fr&quot;&gt;
@@ -553,23 +476,24 @@
         </code></pre>
       </script>
     </section>
-
+  
     <section class="slide" data-markdown>
       <script type="text/template">
         # Les attributs
-
-        * fournit des informations supplémentaires ou donne des instructions à l'élément
-        * va à *l'intérieur de la balise d'ouverture HTML*
-        * s'écrit avec la syntaxe `attribut="valeur"` (remarquez les guillemets)
-        * il y a beaucoup d'attributs différents
+        
+        * Ils fournissent des informations supplémentaires ou donnent des directives à l'élément
+        * Ils vont à *l'intérieur* de la balise d'ouverture HTML
+        * Ils s'écrivent selon la syntaxe `attribut="valeur"` (remarquez les guillemets)
+        * Il existe beaucoup d'attributs différents
 
         ```
-        <attributdelabalise="valeur">contenu</tag>
+        <attributdelabalise="valeur">contenu</balise>
         ```
       </script>
     </section>
 
-    <section class="slide" data-markdown>
+  
+       <section class="slide" data-markdown>
       <script type="text/template">
         # Les attributs
 
@@ -589,508 +513,778 @@
         Nous utiliserons plus d'attributs pendant les exercices.
       </script>
     </section>
-
-    <section class="slide page-layout" data-markdown>
+    
+    <section class="slide title" data-markdown data-toc>
       <script type="text/template">
-        # PLANIFICATION DE LA MISE EN PAGE
-
-        Un élément important de la création d'une page Web est d'en planifier la structure. Bien que vous changerez sûrement des éléments plus vous avancerez, la création d'une maquette de base avec un langage HTML [sémantique](https://fr.wikipedia.org/wiki/HTML_s%C3%A9mantique) est un bon point de départ.
-
-        Même si vous n'avez pas de modèle de mise en page, un grand nombre de développeurs et de concepteurs aiment planifier leur site à l'aide d'un simple dessin.
-
-        <img src="framework/img/workshop/structure-tags-example_fr.gif" alt="Exemple de balises de structure">
-
-        Le HTML5 a apporté de nouvelles balises qui décrivent mieux les blocs de contenu, comme `<header>` (en-tête), `<section>` et `<footer>` (bas de page). (Il y en a beaucoup d'autres.)
-
-        La balise `div` s'utilise aujourd'hui au besoin, par exemple, pour regrouper simplement des éléments du même style, ou quand aucune autre balise HTML5 ne peut bien décrire l'élément.
-
-        ----
-        ###Ressources (en anglais)
-        * [html5doctor.com](http://html5doctor.com)
-        * [HTML5 Element Flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
-
+        #Ajouter du contenu HTML
+                ##En-têtes, paragraphes, liens, OMG!
       </script>
     </section>
-
+    
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Exercice de groupe n°2: Structure de la page (5 minutes)
+        #Ajouter du texte : en-têtes et paragraphes
 
-        Ajoutons les balises de structure HTML5 pour créer la mise en page dans l'éditeur de texte.
-        N'ajoutez que les balises de structure HTML5, pas de contenu pour le moment.
+        Il y a six balises d'en-tête, et celles-ci vont de `<h1>` à `<h6>` en suivant une hiérarchie. Le HTML est utilisé pour donner du *sens* au contenu de façon à ce que le navigateur puisse le lire.
 
-        Nous aurons besoin de ces balises: `<header>` (en-tête), `<section>` et `<footer>` (bas de page)
-
-        De plus, vous pouvez utiliser des commentaires HTML pour vous aider à organiser le code comme suit:
-
+        ```xml
+        <h1>Nom du blogue</h1>
+        <h2>Titre de l'article de blogue</h2>
+        <h3>En-têtes secondaires à l'intérieur de l'article de blogue</h3>
         ```
-        <!-- en-tête de la page -->
-        <header>
 
-        </header>
-        ```
-        Consultez <!-- .element: class="note" --> `exercise-02_fr.html` dans le dossier **reference** ou la diapositive précédente pour vérifier votre code.
-      </script>
-    </section>
-
-    <section class="slide title" data-markdown>
-      #Ajouter du contenu
-      ##Paragraphes, en-têtes, images et liens
-    </section>
-
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Les paragraphes
-
-        **Les paragraphes**: qu'ils soient d'une phrase ou non, les paragraphes ont besoin de balises `<p></p>`.
+        Les paragraphes sont représentés par la balise `<p>`.
 
         ```xml
         <p>Ceci est un paragraphe.</p>
-
-        <p>Ceci est un plus long paragraphe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vero dolor expedita quasi reiciendis minus unde sapiente id eveniet saepe officia quibusdam aspernatur, sint voluptate ipsam ex magni. Aliquam, ex!</p>
+        <p>Ceci est un autre paragraphe.</p>
         ```
       </script>
-    </section>
+    </section> 
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Les en-têtes
+        # Exercice n° 1 - Mettez à jour index_fr.html (~5 à 10 minutes)
 
-        Il y a six balises d'en-tête, de `<h1>` à `<h6>`, qui décrivent la hiérarchie de la structure de la page. Afin de choisir l'en-tête à utiliser, pensez à la façon dont vous organisereriez un plan de texte.
+        1.  Mettez à jour votre nom dans la balise `h1` si ce n'est pas déjà fait.
+        2.  Ajoutez un sous-titre, sous votre nom, à l'aide de la balise d'en-tête appropriée.
+        3.  Changez le contenu de la balise `<title>`. Où peut-on voir le contenu mis à jour?
+        4.  Ajoutez une ligne de droits d'auteur dans un paragraphe (`<p>`) _à l'intérieur_ de la balise de bas de page `<footer>`.
+          
+        N'oubliez pas de sauvegarder et de rafraîchir le navigateur après chaque modification!
 
-        <div class="example essay-headings">
-        <p><strong>Titre du texte</strong></p>
-        <ol>
-         <li>Introduction</li>
-         <li>Idée principale 1
-           <ul>
-             <li>Idée secondaire 1</li>
-             <li>Idée secondaire 2</li>
-           </ul>
-         </li>
-         <li>Idée principale 2
-           <ul>
-             <li>Idée secondaire 1</li>
-             <li>Idée secondaire 2</li>
-           </ul>
-         </li>
-         <li>Conclusion</li>
-        </ol>
-        </div>
+        <!-- .element: class="note" -->**Bonus :** Essayez d'utiliser du code HTML code pour le _symbole_ de droit d'auteur. Voici quelques ressources (en anglais) :  
+        [http://character-code.com/ascii-table.php](http://character-code.com/ascii-table.php)  
+        [http://unicode-table.com/en/#00A9](http://unicode-table.com/en/#00A9)
 
-        Voyons voir comment décrire cette hiérarchie à l'aide des balises d'en-tête.
+        Jetez un coup d'oeil à <!-- .element: class="note" --> [ex1_fr.html](project/examples/ex1_fr.html) dans le dossier **examples**. Nous parlerons des balises `<header>` et `<footer>` bientôt.
       </script>
-    </section>
+    </section> 
+    
+    <section class="slide nested-list" data-markdown>
+      <script type="text/template">
+        #Créer des pages HTML
+
+        Pour créer une page HTML, donnez l'extension `.html` au fichier en le nommant.  
+
+        * Écrivez en minuscules.
+          * Écrivez **apropos.html** plutôt que **APropos.html** ou **APROPOS.html** (en anglais : **about.html**)
+        * Évitez les e s p a c e s et les symboles, y compris les accents. Utilisez le trait de soulignement (`_`) ou le trait d'union (`-`). 
+          * Veuillez noter que le [trait d'union est plus efficace que le trait de soulignement pour le SEO](http://searchengineland.com/9-seo-quirks-you-should-be-aware-of-146465) (search engine optimization, en anglais).
+          * Écrivez **heures-ouverture.html** plutôt que **heures d'ouverture.html**
+          * Le navigateur interprète les espaces comme ceci : **heures%20ouverture.html**
+        * Assurez-vous que vos noms de fichier sont courts, mais qu'ils ont du sens.
+          * **apropos_fr.html** (about.html en anglais), **contact_fr.html** plutôt que **page1.html**, **page2.html**
+
+        ---
+        ###Truc de pro! Ces conseils pour nommer les fichiers s'appliquent à tout : les images, les dossiers, les fichiers CSS, etc.
+      </script>
+    </section> 
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Les en-têtes et les balises de section HTML5
-
-        Avec l'arrivée des balises de section HTML5, chaque partie du document qui utilise une balise de section a son *propre* plan.
-
-        **Plan des en-têtes HTML5**
+        #Exercice de groupe : Créer des pages HTML
+        
+        Créons des fichiers HTML pour les pages **À propos** et **Contact**.  Laissez le fichier vide. Le contenu sera ajouté dans un prochain exercice.
+        
+        Comme le fichier **index_fr.html** existe déjà, créons les fichiers **apropos_fr.html** (about.html en anglais) et **contact_fr.html**. Assurez-vous de sauvegarder ces pages dans le dossier **project**.
+        
+        Pour sauvegarder dans l'éditeur : **File > New file ** et **File > Save**
+        
+        Votre dossier ressemblera maintenant à ceci :
+        
         ```xml
-        <h1>Titre du texte</h1>
-
-        <section>
-          <h1>Introduction</h1>
-          <p>contenu</p>
-        </section>
-
-        <section>
-          <h1>Idée principale 1</h1>
-          <h2>Idée secondaire 1</h2>
-          <h2>Idée secondaire 2</h2>
-        </section>
+        |-- project (dossier)
+          |-- css (dossier)
+          |-- examples (dossier)
+          |-- final (dossier)
+          |-- images (dossier)
+          |-- index_fr.html
+          |-- apropos_fr.html
+          |-- contact_fr.html
         ```
+      </script>
+    </section>
+    
+    <section class="slide project" data-markdown>
+      <script type="text/template">
+        #Navigation du site Web
+
+        Dans l'exemple de projet, toutes les pages ont le même en-tête (nom et sous-titre) ainsi que les mêmes liens de navigation et informations de bas de page.  
+        
+        Certains styles sont différents sur chaque page, mais ne vous en occupez pas. En ce moment, nous nous concentrons sur le HTML. 
+
+        ![page d'accueil du projet](framework/img/workshop/project1.jpg)
+        ![page à propos du projet](framework/img/workshop/project2.jpg)
+        ![page de contact du projet](framework/img/workshop/project3.jpg)
+        
+        ---
+        ###Truc de pro!
+        
+        Nous vous conseillons d'écrire le plus de HTML et de contenu *avant* que possible d'ajouter du CSS afin de vous assurer que vous utilisez les bonnes balises. De cette façon, votre code sera organisé et [sémantique](https://fr.wikipedia.org/wiki/HTML_s%C3%A9mantique).
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Liens et attributs
+
+        Les liens sont représentés par la balise d'ancrage (`<a>`) et un *attribut*. 
+          
+        Souvenez-vous que les *attributs* suivent la syntaxe suivante, `attribut="valeur"`, et qu'ils vont à l'intérieur de la balise d'*ouverture*.
+          
+        L'attribut `href` donne des informations à propos de l'emplacement du lien.
+
+        ```xml
+        Visitez le site de <a href="http://ladieslearningcode.com">Ladies Learning Code</a>.
+        ```
+        
+        L'exemple ci-dessus est un lien **absolu**. Comme quand l'on tape une adresse URL dans un navigateur, cette adresse est « entière » et commence par `http://`.
+
+        <!-- .element: class="note" -->**Remarque** : Le texte à cliquer va entre les balises `<a>` d'ouverture et de fermeture. 
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Liens relatifs
+
+        La navigation du projet d'aujourd'hui se fera à l'aide de liens vers d'autres pages HTML à l'intérieur du dossier de fichiers du projet.
+        
+        Ces liens sont appelés des liens ou des chemins **relatifs**.
+        
+        Pour créer des sites Web, il est extrêmement important de comprendre le concept des liens relatifs, c'est à dire, en fonction de leur emplacement dans le dossier de fichiers.
+        
+        Les chemins relatifs sont utilisés pour faire des liens à la fois vers les fichiers HTML et vers d'autres fichiers, comme les images ou les fichiers CSS.
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Chemins relatifs
+        
+        Votre dossier de projet ressemble à ceci actuellement :
+        
+        ```xml
+        |-- project (dossier)
+          |-- css (dossier)
+          |-- examples (dossier)
+          |-- final (dossier)
+          |-- images (dossier)
+          |-- index_fr.html
+          |-- apropos_fr.html
+          |-- contact_fr.html
+        ```
+        
+        Pour faire un lien *vers* le fichier **apropos_fr.html** *à partir* de **index_fr.html** (point de départ), l'attribut `href` doit ressembler à ceci :
+        
+        ```xml
+        <a href="apropos_fr.html">À propos</a>
+        ```
+        
+        Pour faire un lien vers une image dans le dossier **images** à partir de **index_fr.html** (point de départ) l'attribut `src` doit comprendre le nom du dossier : 
+        
+        ```xml
+        <img src="images/nomdufichier.jpg">
+        ```
+        (Nous aborderons les images bientôt.)<!-- .element: class="note" -->
+      </script>
+    </section>
+        
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Balises de section HTML5
+
+        Parfois, plusieurs éléments HTML doivent être regroupés afin de les organiser ou de leur donner un style.
+        
+        Avant le HTML5, la balise `<div>` était utilisée pour regrouper des éléments. 
+          
+        `div` fonctionne toujours, mais le HTML5 nous a donné des balises sémantiques qui décrivent mieux les blocs de contenu.
+          
+        Vous avez déjà vu certaines de ces balises avec **index_fr.html** : `<header>` et `<footer>`.
+          
         ---
         ###Ressource
-        Apprenez-en plus à propos des en-têtes et de HTML5<!-- .element: class="footnote" --> [ici](https://developer.mozilla.org/fr/docs/Web/HTML/Sections_and_Outlines_of_an_HTML5_document) (en français) et [ici](http://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824) (en anglais).
+        
+        Pour en savoir plus à propos du HTML5 (en anglais) : http://html5doctor.com
+      </script>
+    </section>
+      
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Balises de section HTML5 : `<nav>`
+
+        La navigation est souvent créée à l'aide d'une liste HTML et de liens, ou tout simplement avec des liens. Pour en savoir plus, consultez les ressources ci-dessous.
+
+        Aujourd'hui, nous n'utiliserons que des liens. Entourez les balises `<a>` de balises `<nav>` pour les regrouper comme étant des liens de navigation.
+        
+        ```
+        <nav>
+          <a href="#">Accueil</a>
+          <a href="#">À propos</a>
+          <a href="#">Contact</a>
+        </nav>
+        ```
+        (<!-- .element: class="note" --> Le symbole `#` est un exemple qui remplace la valeur de l'attribut `href`.)
+        
+        ---
+        ###Ressource
+        Voici quelques articles à propos de l'utilisation des listes et des liens (en anglais) [ici](https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/) et [là](http://www.sitepoint.com/are-navigation-lists-necessary/).  
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe : Créer un menu de navigation
+
+        Dans le fichier **index_fr.html**, ajoutons une navigation avec des liens dirigeant vers trois pages de notre projet : **Index**, **À propos**, **Contact**. 
+        
+        La navigation ressemblera à ceci dans votre navigateur :
+
+        ![liste de navigation](framework/img/workshop/nav.png)
       </script>
     </section>
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Exercices de groupe n°3: Ajoutez du contenu (10 mins)
+        #Navigation
+          
+        Les balises nav et header dans **index_fr.html** devraient maintenant ressembler à ceci :
+        
+        ```
+        <header>
+          <h1>Jane Smith</h1>
+          <h2>Web Developer + City Girl</h2>	
+        </header>
 
-        Ajoutez du texte sur la page d'accueil de votre histoire, jeu ou questionnaire. Nous aborderons les images et les liens après.
+        <nav>
+          <a href="index_fr.html">Index</a>
+          <a href="apropos_fr.html">À propos</a>
+          <a href="contact_fr.html">Contact</a>
+        </nav> 
+        ```
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Touches de raccourci
+        
+        En ce moment, le HTML dans **index_fr.html** comprend du contenu à ajouter sur les trois pages. Vous devrez donc copier ce contneu d'une page à l'autre (les balises HTML de base, en-tête (header), navigation et bas de page (footer)).
+        
+        Quand nous écrivons du code, nous nous répétons souvent. Voici quelques touches de raccourci pour faciliter notre tâche :
 
-        1. Ajoutez votre titre et votre slogan dans l'en-tête `<header>` avec les balises d'en-tête appropriées.
-          <span class="note">(**N'oubliez pas!** `<head>` et `<header>` sont deux balises différentes.)</span>
-        1. Entre les balises `<section>`, ajoutez un en-tête et quelques paragraphes.
-          <span class="note"><br>Vous n'avez pas encore de contenu? Ajoutez du texte bouche-trou! Trouvez-en dans les ressources ci-dessous.</span>
-        1. Dans le bas de page `<footer>`, ajoutez un paragraphe.
+        `ctrl/cmnd + c` copier  
+        `ctrl/cmnd + x` copier et coller  
+        `ctrl/cmnd + v` coller
+        `ctrl/cmnd + s` sauvegarder  
+        `ctrl/cmnd + r` rafraîchir le navigateur
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice n° 2 - Pages À propos et Contact (~10 minutes) 
+        
+        1. Copiez tout le HTML de la page **index_fr.html** *vers* **apropos_fr.html** et **contact_fr.html**
+        1. Mettez à jour le contenu de la balise `<title>` pour refléter le contenu de la page.
+        p. ex. `<title>Votre nom | À propos</title>`
+        1. Essayez la navigation. Les liens vont-ils tous vers la bonne page?
+        
+        **Exercice supplémentaire :**  
+        Trouvez une image à utiliser comme photo de profil dans votre page **À propos**. Idéalement, cette image devrait avoir une largeur de 400 à 600 px. Voici un lien vers un outil gratuit pour redimensionner des images : [http://pixlr.com](http://apps.pixlr.com/editor/)
+        
+        Référez-vous au dossier des <!-- .element: class="note" --> **exemples** :  ex2-index_fr.html, ex2-apropos_fr.html, ex2-contact_fr.html
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Images et contenu
+        
+        Dans les prochaines diapositives, nous aborderons l'utilisation des balises `<img>`, `<main>` et `<blockquote>` pour ajouter des images et du contenu à la page **À propos**.
+        
+        ![](framework/img/workshop/ex3-about.png)
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Types de fichiers d'images
+        
+        Il y a quelques types de fichiers d'images différents pour le Web.
 
+        **jpg** - utilisé pour les photos avec des couleurs riches ou des dégradés
+        
+        **png** - utilisé pour les images avec un fond transparent ou opaque
+        
+        **svg** - utilisé pour les graphiques 2D et les images échelonnables, basé sur le XML et pouvant être utilisé soit comme un fichier image ou dans le document HTML
+        
+        **gif** - utilisé pour les images avec peu de variations de couleur, et, évidemment, pour les gifs animés!
+
+        ![](framework/img/workshop/mind-blown.gif) <!-- .element: height="325" -->
+        ![](framework/img/workshop/raccoon.gif)<!-- .element: height="325" -->
+        
+        ---
+        ###Ressource 
+        Pour en savoir plus à propos de SVG (en anglais) : http://css-tricks.com/using-svg
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Ajouter des images
+
+        Les images sont un exemple d'un élément vide, ou d'une balise autofermante. Elles n'ont pas besoin de balise de fermeture, car elles _sont_ le contenu.
+
+        La balise d'image nécessite aussi un _attribut_ pour définir le chemin du fichier image. La valeur peut être un chemin absolu :
+        
+        ```
+        <img src="http://fillmurray.com/200/300">
+        ```
+        
+        Ou un chemin relatif :
+        
+        ```
+        <img src="images/profile.jpg">
+        ```
+        
+        ---
+        ###Ressource 
+        Apprenez-en plus à propos des éléments vides [ici](framework/extras-void-elements_fr.html).
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #L'attribut alt
+
+        L'attribut `alt` est facultatif. Il fait référence au *texte alternatif*. 
+        
+        Bien qu'il soit facultatif, il est **fortement recommandé** de l'ajouter pour favoriser l'accessibilité à votre page.
+        
+        Le texte alternatif est lu par les logiciels de lecture d'écran utilisés par les gens ayant une déficience visuelle. Il apparaît aussi quand l'image ne peut pas être affichée.
+        
+        Ce texte doit être une courte description de l'image.
+
+        ```
+        <img src="images/profile.jpg" alt="Jane Smith">
+        ```
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Ajouter ses propres images
+
+        Habituellement, nous créons un nouveau dossier pour organiser les images afin de les séparer des fichiers HTML. Votre dossier **project** contient déjà un dossier **images**.
+        
+        Utilisez l'image par défaut, **profile.jpg**, ou choisissez-en une de votre choix et ajoutez-la à ce dossier.
+        
+        Vous pouvez aussi utiliser une image temporaire! Consultez les liens ci-dessous pour en obtenir.
+        
         ---
         ###Ressources (en anglais)
-        * http://meettheipsums.com
-        * http://thewireipsum.com
-        * http://tinaipsum.rocks
-        * http://www.quotes.net
+        
+        *   [http://placehold.it](http://placehold.it)
+        *   [http://placesheen.com/](http://placesheen.com/)
+        *   [http://placebear.com](http://placebear.com)
+        *   [http://fillmurray.com/](http://fillmurray.com/)
+        *   [http://placekitten.com/](http://placekitten.com/)
+        *   et [plus encore](http://www.hanselman.com/blog/TheInternetsBestPlaceholderImageSitesForWebDevelopment.aspx)!
       </script>
     </section>
-
+    
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Les balises autofermantes et les images
+        #Ajouter ses propres images
 
-        Les balises autofermantes ne changent pas le formatage du contenu et ne nécessitent pas de balise de fermeture. Elles sont employées pour emboîter des éléments dans la page : elles *sont* le contenu.
-
-        Les images utilisent une balise autofermante et nécessitent un *attribut* `src` pour indiquer au navigateur l'emplacement du fichier de l'image.
-
-        ```
-        <img src="chemin/vers/image/nomdufichier">
-
-        ```
-
-        `alt` est un autre attribut qui s'ajoute aux images pour donner des renseignements sur l'image aux visiteurs atteints de déficience visuelle qui utilisent un lecteur d'écran.
-
-        ```
-        <img src="http://placekitten.com/200/300" alt="Chaton!">
-
+        N'oubliez pas que les chemins relatifs existent en fonction du dossier actuel. Puisque les pages HTML se trouvent à l'*extérieur* du dossier **images**, le nom du dossier doit être compris dans le chemin du fichier.
+        
+        ```xml
+        |-- project (dossier)
+          |-- css (dossier)
+          |-- examples (dossier)
+          |-- final (dossier)
+          |-- images (dossier)
+          |-- index_fr.html
+          |-- apropos_fr.html
+          |-- contact_fr.html
         ```
 
-        ##Exemple de l'attribut `alt` lorsque l'image ne se charge pas:
-        <img src="" alt="Chaton!">
+        ```xml
+        <img src="images/profile.jpg" alt="description de l'image">
+        ```
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Balise HTML5 : `<main>`
+      
+        La balise `<main>` (principal) peut être utilisée pour représenter le contenu principal du document. De plus, il est possible d'ajouter l'attribut `role="main"` pour aider les logiciels de lecture d'écran à comprendre où se trouve le contenu principal. 
+        
+        ```
+        <header>
+        ...contenu
+        </header>
+        
+        <nav>
+          ...contenu
+        </nav>
+
+        <main role="main">
+        ...contenu
+        </main>
+
+        <footer>
+        ...contenu
+        </footer>
+        ```
+        
+        Il faut utiliser cette balise seulement une fois dans chaque page, et nous en aurons besoin pour le prochain exercice.
+        
+        ---
+        ###Ressources (en anglais)
+        * [html5Doctor.com - main element](http://html5doctor.com/the-main-element/)
+        * À propos de l'attribut `role`, voir [ce site](http://www.w3.org/TR/wai-aria/roles#landmark_roles)
       </script>
     </section>
-
+    
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Types de fichiers image
-
-        **gif** - petit fichier utilisé pour des dessins, des graphiques et des images avec peu de variation de couleur <span class="note">(Voila pourquoi les gifs animés ont souvent de la neige même s'ils sont drôles!)</span>
-
-        **jpg** - petit fichier utilisé pour les photos avec beaucoup de couleurs et de dégradés
-
-        **png** - gros fichier avec la meilleure qualité, idéal pour les images avec des arrière-plans transparents
-
-        **svg** - format d'image vectorielle basé sur le XML conçu pour les graphiques 2D, prend en charge l'interactivité et l'animation
-
+        #Balise HTML5 : `<blockquote>`
+          
+        L'élément `<blockquote>` représente du contenu cité. Il « habille » le contenu, y compris les balises de paragraphe pour la citation.
+          
+        De plus, vous pouvez utiliser la balise `<cite>` pour indiquer la source de la citation.
+        
+        ```
+        <blockquote>
+          <p>The more that you read, the more things you will know. The more that you learn, the more places you'll go.</p>
+          <cite>― Dr. Seuss, I Can Read With My Eyes Shut!</cite>
+        </blockquote>
+        ```
+    
         ---
         ###Ressource (en anglais)
-        [Voici une longue liste de sites d'images bouche-trous](http://www.wpfreeware.com/tutorial/placeholder-images-generator-service-web-designers/).
+        http://html5doctor.com/cite-and-blockquote-reloaded/
       </script>
-    </section>
+    </section> 
 
-    <section class="slide" data-markdown>
+    <section class="slide small-type" data-markdown>
       <script type="text/template">
-        #Chemin des fichiers image
+        #Exercice n° 3 - Page À propos (~15 minutes)
 
-        Il est recommandé, mais pas nécessaire, de mettre toutes les fichiers image dans un même dossier pour garder les fichiers du projet en ordre. Le répertoire **project** que nous utilisons aujourd'hui comprend déjà un dossier **images**.
+        Ajoutez du contenu à votre page **À propos** pour qu'elle ressemble à [ceci](project/examples/ex3-apropos_fr.html). Vous pouvez utiliser votre propre contenu ou consulter les ressources ci-dessus pour trouver du faux texte.
+        
+        1. Ajoutez la balise `<main role="main"></main>` au contenu de la page À propos qui ne se trouve pas dans l'en-tête (header) ou le bas de page (footer).
+        1. À l'intérieur de la balise `<main>`, ajoutez une photo de profil à l'aide de la balise `<img>`.
+        1. *Après* avoir mis la photo de profil, ajoutez quelques paragraphes à propos de vous ou mettez du faux texte (voir les ressources ci-dessous).
+        1. Le projet d'aujourd'hui comprendra des styles particuliers pour les citations. Par conséquent, *après* les paragraphes, ajoutez une citation à l'aide de la balise `<blockquote>`.
+        1. Facultatif : Ajoutez quelques liens à l'intérieur des paragraphes.
 
-        Comme les images ne sont pas dans le même dossier que **depart.html**, utilisez un chemin *relié* vers lequel faire un lien vers les fichiers image.
 
-        ```
-        <img src="images/fichierimage.jpg">
-        ```
-        Le point de départ (**depart.html**) se trouve à l'extérieur du dossier **image**. Dans l'exemple ci-dessus, le lien redirige le navigateur vers un dossier nommé **images** puis vers le nom du fichier, *y compris l'extension du fichier*.
+        Référez-vous à l'exemple <!-- .element: class="note" -->[ex3-apropos_fr.html](project/examples/ex3-apropos_fr.html) dans le dossier **examples**, mais ne le consultez que si vous êtes coincé!
+        
+        ---
+        ###Ressources (en anglais)
+
+        * [Citations du Dr Seuss](http://www.goodreads.com/author/quotes/61105.Dr_Seuss)
+        * http://www.brainyquote.com
+        * http://meettheipsums.com
+        * http://thewireipsum.com
       </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Chemin des fichiers image
-        Si vous avez un dossier à l'intérieur d'un dossier, ce qu'on appelle un sous-dossier, ajoutez ce sous-dossier au nom du chemin.
-
-        ```
-        <img src="dossier/sousdossier/nomdufichier">
-        ```
-
-        Si vos extensions de fichier ne s'affichent pas par défaut, voici des instuctions pour les activer avec un [Mac](https://support.apple.com/kb/PH19072?locale=fr_CA) et avec [Windows](http://windows.microsoft.com/fr-ca/windows/show-hide-file-name-extensions#show-hide-file-name-extensions=windows-7).
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # Les hyperliens
-
-        Les hyperliens font référence à des données, comme celles d'un document Web, que le lecteur peut suivre directement en cliquant ou en mettant son curseur sur le lien.
-
-        Utilisez la balise d'ancrage `<a>` pour créer un lien. La balise a aussi besoin d'un attribut `href` pour lui donner des renseignements à propos de l'emplacement de la ressource.
-
-        ```xml
-        <a href="http://ladieslearningcode.com">Ladies Learning Code</a>
-        ```
-
-        Pour que le lien s'ouvre dans une nouvelle fenêtre, ajoutez un deuxième attribut, `target` (cible).
-        ```xml
-        <a href="http://ladieslearningcode.com" target="_blank">Ladies Learning Code</a>
-        ```
-
-        Voici la syntaxe pour un lien qui dirige vers une adresse courriel.
-        ```xml
-        <a href="mailto:allo@moncourriel.com">allo@moncourriel.com</a>
-        ```
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Exercice de groupe n°4: Ajoutez des liens et des images (15 mins)
-
-        1. Ajoutez une image à votre page d'accueil (souvenez-vous du texte `alt`)
-        1. Créez un deuxième fichier .html dans votre dossier **project**. Vous pouvez copier et coller la structure du premier fichier ou 'copier' le fichier lui-même. Vous n'avez qu'à le renommer *autrement* que depart.html
-        1. Créez un lien vers `depart.html` dans votre nouveau fichier .html
-
-      </script>
-    </section>
+    </section> 
 
     <section class="slide title" data-markdown data-toc>
       <script type="text/template">
-        #Intro au CSS
-        ##Cascading Style Sheets
+        #Cascading Style Sheets
+        ##CSS : La couche de présentation
       </script>
-    </section>
+    </section> 
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Le CSS: la présentation
+        #CSS et HTML
 
-        * un langage différent du HTML
-        * un langage avec des feuilles de style qui a ses propres règles de syntaxe
-        * utilisé pour séparer le fond (HTML) de la forme (CSS)
-        * la feuille de style contient une liste de règles
+        Bien que le CSS et le HTML soient très reliés, le CSS est un langage différent ayant ses propres règles de syntaxe.
 
-        Le CSS nécessite ces symboles: les accolades `{ }`, le deux-points `:`, le point-virgule `;` (Image: clavier Apple, français (Canada))
+        Le CSS sépare le contenu (p. ex. le texte) de la présentation (p. ex. couleur du texte) et contribue à réduire les répétitions.  
 
-        ![clavier](framework/img/workshop/keyboard-css_fr.png)
+        Les vieilles balises de présentation, comme les balises HTML `<center>` et `<font>`, ne devraient plus être utilisées parce que le CSS s'occupe de la présentation et des styles.
       </script>
-    </section>
+    </section> 
 
-    <section class="slide" data-markdown>
+    <section class="slide nested-list" data-markdown>
       <script type="text/template">
-        #Syntaxe et terminologie du CSS
+        #Terminologie et syntaxe du CSS
+        
+        ![](framework/img/workshop/css-declaration.png)
+        
+        * **Sélecteurs :** ils déterminent les éléments auxquels les styles doivent être appliqués  
+        * **Déclarations :** les règles des styles sont écrits en paire, `propriété:valeur`
+          * chaque règle doit se terminer avec un point-virgule (`;`)  
+          * toutes les règles doivent être écrites à l'intérieur d'accolades : `{ }`
+        * **Propriétés** : elles déterminent le type de style à appliquer à l'élément 
+        * **Valeurs** : propres à la propriété
+      </script>
+    </section> 
 
-        * **Sélecteur (selector):** détermine à quel(s) élément(s) HTML les styles seront appliqués.
-        * **Déclarations:** règles de style venant en paire `propriété:valeur`, sont entourées d'accolades `{ }`, et se terminent avec un point-virgule `;`
-
-        ```
+    <section class="slide nested-list" data-markdown>
+      <script type="text/template">
+        #Écrire du CSS
+        
+        Utilisez des espaces et des indentations pour faciliter la lecture du code.
+        
+        ```css
         sélecteur {
           propriété: valeur;
         }
         ```
-        **Les propriétés** déterminent le *type* de style à appliquer (p.ex. couleur (color)). Les **valeurs** sont propres à cette propriété. (p.ex. rouge (red)).
+        
+        > Dans l'exemple ci-dessous, quel est le sélecteur? Quelles sont les propriétés modifiées?
+        
+        ```css
+        h1 {
+          color: blue;
+          font-size: 12px;
+        }
+        ```
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Écrire du CSS
+        
+        Changeons l'arrière-plan de toute la diapositive. Nous utiliserons `body` comme sélecteur.
+        
+        Choisissez un mot-clé de couleur en anglais pour changer l'arrière-plan. (red, green, lightblue, papayawhip, etc)
+
+        <textarea class="snippet">body {
+          background: ;
+        }</textarea>
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Commentaires CSS
+
+        Les commentaires commencent avec une barre oblique et un astérisque, et ils sont fermés avec les mêmes symboles mais dans l'ordre contraire (`/* */`). Écrivez les commentaires pour les mêmes raisons que les commentaires HTML.
+
         ```
         p {
-          color: red;
+          color: #cc0066; /* magenta - pour laisser des notes */
         }
+
+        /* STYLES D'EN-TÊTE - pour organiser le code */
+        header {
+          width: 80%;
+        }
+
+        /*  Pour plus tard
+        .slider {
+          width: 100px;
+          background: red;
+        }
+        */ 
+        ``` 
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Commentaires CSS
+        
+        Les commentaires commencent avec `/*` et se terminent par `*/`, mais ceux-ci peuvent contenir toutes sortes de caractères à l'intérieur. Utilisez le style de commentaire que vous préférez, mais voici quelques styles courants : 
+        
         ```
-        >Dans l'exemple ci-dessous, quel est le sélecteur? Quelle est la propriété? Et la valeur?
+        /* Commentaires CSS */
+        ```
+        ```
+        /* 
+        Commentaires CSS
+        */
+        ```
+        ```
+        /* Commentaires CSS
+        ----------------*/
+        ```
       </script>
     </section>
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Déclarations CSS multiples
+        #Faire une référence au CSS
 
-        Il est possible d'ajouter de multiples déclarations à un sélecteur. Assurez-vous que chaque déclaration se termine par un point-virgule et écrivez-les toutes sur une ligne séparée pour en faciliter la lecture.
-        ```
-        h2 {
-          background-color: green;
-          font-size: 50px;
-        }
-        ```
-        En plus de background-color (arrière-plan) et de font-size (grosseur de police), il y a un nombre extrêmement grand de propriétés CSS. Comme de nouvelles propriétés s'ajoutent et que d'autres sont retirées (dépréciées), il est utile d'avoir quelques ressources sous la main pour rester au courant.
+        Il y a plusieurs façons d'inclure le CSS à une page HTML. Aujourd'hui, nous utiliserons la méthode **externe** séparant le HTML du CSS.
 
-        ---
-        ###Ressources
-        * http://caniuse.com
-        * https://developer.mozilla.org/fr/docs/Web/CSS/Reference (en français)
-        * http://htmldog.com/reference/cssproperties/
-      </script>
-    </section>
-
-    <section class="slide">
-      <h1>Exercez-vous à sélectionner un élément</h1>
-      <p>En utilisant l'exemple en HTML ci-dessous, changez le sélecteur pour que les instructions écrites dans les commentaires soient appliquées.</p>
-<pre><code>&lt;p&gt;Ceci est un paragraphe.&lt;/p&gt;
-&lt;h2&gt;Ceci est un h2.&lt;/h2&gt;
-</code></pre>
-<textarea class="snippet" data-subject="#css-selectors">sélecteur { /* sélectionnez le paragraphe */
-  color: red;
-}
-sélecteur { /* sélectionnez l'en-tête */
-  color: blue;
-}</textarea>
-      <div id="css-selectors" class="example">
-        <p>Ceci est un paragraphe</p>
-        <h2 style="margin-top:0;">Ceci est un h2</h2>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Relier la feuille de style
-
-        Aujourd'hui nous allons créer une feuille de style distincte pour le CSS. Pour créer une feuille de style, vous n'avez qu'à donner l'extension `.css` à un fichier.
-
-        Il faut donc relier la feuille de style (stylesheet) au document HTML à l'intérieur de la balise `<head>` (une balise différente de `<header>`).
-
-        Utilisez la balise `<link>` (lien) et deux attributs, `rel` et `href`.
+        Le fichier de feuille de style (avec l'extension de fichier .css) est référencé à l'intérieur de la balise `<head>`.  
+        <span class="note">N'oubliez pas que `<head>` est différent de `<header>`!</span>
+          
+        Utilisez `<link>` et deux attributs `rel` et `href` pour faire un lien vers le fichier css.
 
         ```
         <head>
-          <title>Titre de la page</title>
           <link rel="stylesheet" href="css/style.css">
         </head>
         ```
-
-        Bien que ce ne soit pas nécessaire, les fichiers css sont souvent enregistrés dans un dossier séparé pour mieux les organiser, comme c'est le cas pour les images. <!-- .element: class="note" -->
+        
+        Bien que ce ne soit pas obligatoire, les fichiers css sont souvent sauvegardés dans un dossier css séparé pour faciliter l'organisation. Assurez-vous que le chemin du fichier indique le bon dossier.<!-- .element: class="note" -->
 
         ---
         ###Ressource
-        Il y a de nombreuses façons d'ajouter du CSS. Apprenez-en plus sur les liens vers le CSS <!-- .element: class="footnote" -->[ici](http://reference.sitepoint.com/css/linkingcss) (en anglais) et <!-- .element: class="footnote" -->[ici](http://www.ateliercss.org/integration_style_css.htm) (en français).
+        Pour en savoir plus à propos des références css **intégrées** et **internal**, consultez [cette ressource supplémentaire](framework/extras-referencing-css.html).
       </script>
-    </section>
+    </section> 
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Exercice de groupe: Créez le fichier CSS de votre projet
+        #Exercice de groupe : Créer un fichier CSS
 
-        1. Dans l'éditeur de texte, créez un nouveau fichier CSS en cliquant sur **File > New File**.
-        1. Nommez-le **styles.css** et enregistrez-le dans le dossier racine (au même endroit que votre fichier **depart.html**).
-        1. Puis, faites un lien vers ce fichier dans **depart.html** et dans le deuxième fichier html que vous venez de créer.
-        <span class="note">**Truc de pro!**  Tapez `link` et appuyez sur `tab`!</span>
-          ```
-          <head>
-              <link rel="stylesheet" href="styles.css">
-          </head>
-          ```
-        1. Faites un test en ajoutant un arrière-plan (background) au corps (`body`). N'oubliez pas que le nom de la couleur doit être en anglais.
-          ```
-          body {
-            background: lightblue;
-          }
-          ```
-      </script>
-    </section>
-
-    <section class="slide first-website" data-markdown>
-      <script type="text/template">
-        <div class="text">
-          <h1>Tada!</h1>
-          <p>
-            Vous venez de créer un site Web. HTML + CSS = site Web
-          </p>
-        </div>
-      </script>
-    </section>
-
-    <section class="slide title" data-markdown>
-      <script type="text/template">
-        #Décorez votre site <br>
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Les couleurs CSS
-
-        * **mot-clé** - utilisez le nom de la couleur en anglais
-        (e.g. `red`, `green`, `blue`, `pink`, `papayaWhip`, `paleGoldenrod`, etc)
-        * **RGB** - utilise trois valeurs numériques entre `0` (noir) et `255` (blanc)
-        * **code hexa** - symbole du carré (`#`) suivi de six caractères (0-9, A-F)
+        Créez un nouveau fichier CSS en sélectionnant **File > New File**.  
+        Voici quelques noms de fichiers populaires : global.css, main.css, styles.css  
+        Dans ce cas-ci, nous utiliserons **styles.css**. Assurons-nous de sauvegarder le fichier dans le dossier **css**.
+        
+        Ajoutez-le à tous les fichiers HTML (**index_fr.html**, **apropos_fr.html**, **contact_fr.html**)
 
         ```
-        /* Ces exemples écrits de trois manières différentes représentent tous la même couleur. En passant, ceci est un commentaire CSS! */
-        p {
-          background: firebrick;
-          background: rgb(178,34,34);
-          background: #B22222;
+        <link rel="stylesheet" href="css/styles.css">
+        ```
+        <!-- .element: class="note" -->**Truc de pro!** Raccourci : tapez `link` sans chevrons et appuyez sur **tab**. Et voila!
+        
+        Vérifions rapidement si la référence CSS a été bien ajoutée en changeant l'arrière-plan des pages juste pour voir si tout fonctionne.
+
+        ```
+        body {
+          background: lightblue;
         }
         ```
+        Si vous voyez cette couleur d'arrière-plan sur toutes les pages, tout fonctionne!
+      </script>
+    </section> 
 
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe : Ajouter du CSS
+        
+        Avez-vous remarqué que le contenu ne va pas jusqu'au bord de la page? C'est parce qu'il y a un espacement par défaut dans l'élément `<body>`.
+
+        ![](framework/img/workshop/body-margin.png)
+        
+        Enlevons la couleur d'arrière-plan et remplaçons-la par `padding` (remplissage) et `margin` (marge) pour réinitialiser la valeur. (Nous aborderons ces propriétés plus tard.)
+
+        ```
+        body {
+          padding: 0;
+          margin: 0;
+        }
+        ```
+      </script>
+    </section> 
+
+    <section id="colours" class="slide" data-markdown>
+      <script type="text/template">
+        #Valeurs de couleurs
+        
+        Vous pouvez utiliser l'un des trois types de valeurs de couleurs :
+        
+        * **mots-clés** - la plupart des couleurs de base en anglais fonctionnent (red, green, blue, pink, etc) ainsi que d'autres couleurs plus avancées comme "papayaWhip" et "paleGoldenrod"    
+        * **RGB (red-green-blue)** - type de valeur faisant appel à trois valeurs numériques de 0 (noir) à 255 (blanc).   
+        * **Code hexadécimal** - utilisez le carré (`#`) puis entrez six caractères hexadécimaux (0 à 9, A à F).
+
+        ```
+        /* Ces valeurs représentent la même couleur : */
+        p {
+          background: firebrick;
+          background: #B22222;
+          background: rgb(178,34,34);
+        }
+        ```
+        
         ---
         ###Ressources (en anglais)
-        * http://colours.neilorangepeel.com
-        * http://coolors.co
-        * http://wesandersonpalettes.tumblr.com
-        * http://www.colorpicker.com
-        * http://www.colourlovers.com
-        * http://flatuicolors.com
+        * http://colours.neilorangepeel.com  
+        * http://www.colorpicker.com  
+        * http://www.colourlovers.com  
+        * http://flatuicolors.com   
         * http://color.hailpixel.com
       </script>
-    </section>
+    </section> 
 
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Typographie CSS
+      </script>
+    </section> 
+    
+    <section class="slide">
+      <h1>Styles de police CSS</h1>
+      
+      <p>Jetons un coup d'oeil à quelques propriétés CSS pour styliser du texte. Changez les valeurs ci-dessous et voyez les changements par vous-même!</p>
+      
+<textarea class="snippet" data-subject="#css-type">color: slateblue;
+line-height: 1.25;
+font-size: 16px;
+font-weight: normal;
+text-transform: lowercase;</textarea>
+
+      <div id="css-type" class="example">
+        <p>Texte pour essayer les valeurs. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni repellat sunt quae fugit illum in aut sed, quis nesciunt totam veritatis, dolores alias modi fuga commodi dicta facilis, consequatur temporibus.</p>
+      </div>
+      
+      <hr>
+      <h3>Ressource (en anglais)</h3>
+      <ul>
+        <li><a href="http://reference.sitepoint.com/css/typography">Sitepoint Typographical Properties</a></li>
+      </ul>
+    </section> 
+    
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Couleurs d'arrière-plan
-
-        L'ajout de couleurs d'arrière-plan n'est pas qu'une convention. Les couleurs d'arrière-plan aident aussi à visualiser les blocs de contenu HTML.
-
-        Dans le dernier exemple de projet, le `<footer>` (bas de page) utilise le gris comme couleur d'arrière-plan.
-
-        > Quel sélecteur doit être utilisé pour appliquer ce style?
-
-        <pre class="delayed"><code>footer {
-
-        }</code></pre>
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Les styles de police CSS
-
-        Il y a beaucoup de propriétés CSS pour donner du style au texte. En voici quelques-unes que nous aborderons aujourd'hui. Modifiez les valeurs ci-dessous pour voir ce que font les propriétés!
-
-        <textarea class="snippet" data-subject="#css-type">color: slateblue;
-        font-family: Helvetica, Arial, serif;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 1.25;
-        text-transform: lowercase;</textarea>
-
-        <div id="css-type" class="example">
-          <p>Texte pour tester les styles. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni repellat sunt quae fugit illum in aut sed, quis nesciunt totam veritatis, dolores alias modi fuga commodi dicta facilis, consequatur temporibus.</p>
-        </div>
-
-        ###Ressource (en anglais)
-        [Sitepoint Typographical Properties](http://reference.sitepoint.com/css/typography)
-
-        <div class="presenter-notes">
-          <p>Dites ce que fait chaque propriété en mettant à jour les exemples dans l'éditeur de texte. Expliquez les différences entre l'utilisation de la propriété line-height avec une unité de mesure et son utilisation sans unité de mesure.</p>
-        </div>
-      </script>
-    </section>
-
-    <section class="slide nested-list" data-markdown>
-      <script type="text/template">
-        #Polices conçues pour le Web
-
-        « conçues pour le Web » fait référence aux polices préinstallées.  Comme les systèmes d'exploitation n'ont pas les mêmes polices par défaut, utilisez un *ensemble* de polices pour avoir des polices de rechange.
+        #font-family et les polices pour le Web
+        
+        Lorsque vous utilisez la propriété `font-family`, il est pratique d'indiquer au moins deux ou trois polices de rechange au cas où l'ordinateur de l'utilisateur n'a pas ces polices installées.
 
         ```
-        font-family: Helvetica, Arial, serif;
+        body {
+          font-family: Helvetica, Arial, sans-serif;
+        }
         ```
-
-        * Polices « conçues pour le web » courantes:
-          * <span style="font-family:Arial;">Arial</span>
-          * <span style="font-family:Verdana;">Verdana</span>
-          * <span style="font-family:Times New Roman;">Times New Roman</span>
-          * <span style="font-family:Georgia;">Georgia</span>
-          * <span style="font-family:Courier;">Courier</span>
-
-        Pour en avoir une liste complète, visitez le <http://www.cssfontstack.com> (en anglais).
+        
+        Les polices que nous considérons *idéales pour le Web* sont des polices habituellement installées sur la plupart des ordinateurs.
+        
+        Voici une liste des polices idéales pour le Web (en anglais) : [CSS Font Stack](http://cssfontstack.com/).
       </script>
-    </section>
+    </section> 
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Exercice de groupe: Utilisez Google Fonts
-
+        #Polices pour le Web
+        
+        Pour découvrir des polices au-delà de celles convenant au Web, consultez des sites comme [Google Fonts](http://www.google.com/fonts/) (gratuit) et [Typekit](https://typekit.com/) (gratuit / payant). (en anglais) 
+        
+        Google Fonts est une ressource vous permettant de faire un lien directement vers la feuille de style de Google. Par conséquent, tant et aussi longtemps que l'utilisateur est branché à Internet, il n'a pas besoin d'installer la police pour l'afficher.
+        
+        Nous ferons appel à Google Fonts pour notre projet. 
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe : Comment utiliser Google Fonts
+        
         1. Allez sur le site de [Google Fonts](http://www.google.com/fonts).
-        1. Cliquez sur **l'icône de plus** en mettant votre curseur sur une police pour la sélectionner.<br>
-        ![](framework/img/workshop/google-fonts-1_fr.png)
-        1. Cliquez sur **Family Selected**. <span class="note">(Vous pourrez changer de police dans le prochain exercice.)</span>
-        1. Copiez l'extrait de code qui commence par `<link>` avec un arrière-plan gris.
-        1. Collez l'extrait de code `<link>` entre les balises `<head>` de votre page, avant le code **styles.css**, pour faire le lien vers le CSS de Google Fonts.
+        2. Cliquez sur **Family Selected**. <span class="note">(Vous pourrez changer de police dans le prochain exercice.)</span>
+        3. Copiez l'extrait de code qui commence par `<link>` avec un arrière-plan gris.
+         1. Collez l'extrait de code `<link>` entre les balises `<head>` de votre page, avant le code **styles.css**, pour faire le lien vers le CSS de Google Fonts.
           ```
           <head>
             <meta charset="UTF-8">
-            <title>Create Your Own Adventure</title>
-            <link href='https://fonts.googleapis.com/css?family=Mirza' rel='stylesheet' type='text/css'>
+            <title>Jane Smith | À propos</title>
+            <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet' type='text/css'>
             <link rel="stylesheet" href="styles.css">
           </head>
           ```
@@ -1098,219 +1292,899 @@ sélecteur { /* sélectionnez l'en-tête */
         Vous êtes maintenant prêts à utiliser la nouvelle police. De retour sur Google Fonts, utilisez l'extrait de code qui commence par font-family qui se trouve sous **Specify in CSS**.
 
         ```
-        font-family: 'Mirza', cursive;
+        font-family: 'Open Sans', cursive;
         ```
       </script>
     </section>
 
+    <section class="slide nested-list" data-markdown>
+      <script type="text/template">
+        #C'est l'heure de la pause! (exercice facultatif)
+
+        * Choisissez 2 ou 3 polices (convenant au Web ou tirées de Google Fonts) 
+          * Voici l'exemple de [projet final](project/final/apropos_fr.html) en guise de référence. 
+          * Avez-vous besoin d'aide pour choisir votre police? Voici quelques [idées](http://hellohappy.org/beautiful-web-type/). Vous pouvez aussi utiliser les polices de LLC.
+        * Ajoutez votre propre photo de profil sur la page **À propos**. 
+          * L'image devrait idéalement avoir une largeur de 400 à 600 px. 
+          * Outil gratuit pour couper des images : [http://pixlr.com](http://apps.pixlr.com/editor/)
+        * Choisissez une image d'arrière-plan dans le dossier **images** ou utilisez la vôtre.  
+          * Les images d'arrière-plan devraient avoir une largeur de 1 000 à 1 4000 px.
+          * Il est possible de télécharger des images sans droits d'auteur [ici](https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b#.kl0cpopcn) (en anglais)
+      </script>
+    </section> 
+    
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Rudiments du CSS
+        ##Deuxième partie
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Cascade
+        
+        Comme le CSS s'exécute de haut en bas (en « cascade »), vous devez prêter attention à l'ordre des déclarations CSS. La déclaration *qui suit* une autre déclaration sera remplacée par la première.
+
+        > Dans cet exemple, quelle couleur prendra la balise `<h1>`?
+
+        ```
+        h1 {
+          color: black;
+        }
+        h1 {
+          color: blue;
+        }
+        ```
+        Assurez-vous que votre code est bien organisé pour minimiser les erreurs.
+      </script>
+    </section> 
+    
     <section class="slide" data-markdown>
       <script type="text/template">
         #Héritage et spécificité
 
-        Les styles sont une des forces du CSS. Ils peuvent être hérités d'un élément parent à un élément enfant. Repassons sur la relation de hiérarchie familiale entre les éléments.
+        Les styles sont l'une des forces du CSS. Ils peuvent être hérités d'un élément parent à un élément enfant. Repassons sur la relation de hiérarchie familiale entre les éléments.
 
         ```
-        <body><!-- parent de h1 et de p -->
-          <h1>Mon site</h1><!-- enfant de body, frère de p -->
-          <p>Ceci est un paragraphe</p><!-- enfant de body, frère de h1 -->
+        <body>
+          <h1>Mon site Web</h1><!-- enfant de body -->
+          <p>Ceci est un paragraphe.</p><!-- frère de h1 -->
         </body>
         ```
-
-        Les propriétés CSS du sélecteur CSS `body` sont héritées par les éléments, les descendants. Un sélecteur plus précis remplacera ces valeurs héritées.
         ```
         body {
-          color: #222222;
+          color: blue;
         }
         h1 {
-          color: blue; /* remplace le style hérité */
+          color: black;
         }
         ```
+        > De quelle couleur sera le paragraphe? Et le h1?
       </script>
-    </section>
-
+    </section> 
+    
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Exercice de groupe n°5: Typographie
-
-        (Assurez-vous que la feuille de style (stylesheet) Google Fonts a été ajoutée à la page HTML afin d'utiliser les polices du site.)<!-- .element: class="note" -->
-
-        Ajoutons la police de base à l'élément `body` pour que tous ses descendants puissent hériter de son style.
-
-        Changez l'épaisseur de la police ( `font-weight` ) pour qu'elle soit plus grosse ou plus petite (facultatif).
+        #Héritage et spécificité
 
         ```
         body {
-          font-family: 'Mirza', cursive;
-          font-weight: 300;
+          color: blue;
+        }
+        h1 {
+          color: black;
         }
         ```
+        Les enfants et les éléments descendant de `body` hériteront la plupart des styles. (Seulement certaines propriétés CSS peuvent être héritées.)
+
+        Le sélecteur `h1` est précis et remplace les styles hérités.
+        
+        ---
+        ###Ressources
+        * [Tableau complet des propriétés CSS (en anglais)](http://www.w3.org/TR/CSS21/propidx.html)
+        * Mozilla Developer Network: [La cascade et l'héritage](https://developer.mozilla.org/fr/Apprendre/CSS/Les_bases/La_cascade_et_l_h%C3%A9ritage)
       </script>
     </section>
-
+    
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Exercice de groupe n°5: Typographie (suite)
+        #Combiner les sélecteurs
 
-        Choisissons une police différente qui s'appliquera seulement aux en-têtes.
+        Parfois, plusieurs éléments partageront les mêmes styles. Vous pouvez sélectionner de nombreux éléments en *combinant* les sélecteurs.
 
-        Pour cibler de nombreux sélecteurs en même temps, vous pouvez *combiner* les sélecteurs à l'aide d'une virgule.
-
+        Plutôt qu'écrire ceci : 
         ```
-        h1,
+        h1 {
+          /* les styles */
+        }
         h2 {
-          font-family: 'Passion One', cursive;
-          font-weight: 400;
+          /* les styles */
         }
         ```
-        Votre page devrait maintenant ressembler à `exercise-04_fr.html` dans le dossier de référence. Consultez aussi le fichier `exercise-04.css` pour voir la feuille de style.
+        Écrivez cela (avec la virgule!) :
+        ```css
+        h1, h2 {
+          /* sélectionne h1 et h2 */
+        }
+        ```
+        En écrivant cela, vous faites la même chose que dans le premier exemple, mais en moins de lignes de code, ce qui facilite les changements de style pour ces deux éléments.
+
       </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Sélecteurs descendants
+
+        Ils correspondent à tout élément (balise) emboîté dans un élément précis. Remarquez l'espace *entre* les sélecteurs : il est obligatoire!
+
+        ```css
+        parent enfant {
+          /* s'applique seulement à l'enfant emboîté à l'intérieur de la balise parent */
+        }
+        p a {
+          /* cible seulement les balises d'ancrage de lien à l'intérieur d'une balise p */
+        }
+        ```
+        
+        **Truc de pro!** Comme dans [Inception](http://www.imdb.com/title/tt1375666/), vous ne devriez pas remonter plus loin que trois « générations ».
+
+        ```
+        nav ul li a span {
+          /* NOOOOOOOOOOON!!!! */
+        }
+        ```
+
+        <!-- .element: class="note" -->**Remarque** : Vous pouvez sauter un niveau, mais assurez-vous de respecter les règles de spécificité. Par exemple, `nav ul li a` remplacerait `nav a` parce qu'il est plus spécifique (précis). Il vaut mieux commencer avec des sélecteurs génériques et les préciser, au besoin.
+    </script>
     </section>
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Éléments en bloc et en ligne
+        #Typographie CSS
 
-        Par défaut, certains éléments HTML sont en **bloc** ou en **ligne**.
+        Le prochain exercice concerne la modification des polices par défaut :
 
-        ##Éléments en bloc
-        *   jusqu'à 100 % de la largeur de son contenant
-        *   peut appliquer des éléments CSS liés à la taille (marges (margin), remplissage (padding), hauteur (height), largeur (width)
+        ![](framework/img/workshop/exercise-fonts.png)
+        
+        **Attention!** Assurez-vous que **styles.css** et le fichier CSS de Google Fonts se trouvent dans toutes les pages HTML afin que les changements se reflètent partout sur votre site.
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe - Typographie
+        
+        Dans l'exemple de projet, la plupart du contenu du site utilise la même police. Ajoutez la famille de police principale au bloc de déclaration `body` pour faire appel à la hiérarchie CSS.
+        
+        ```
+        body {
+          font-family: "Open Sans", sans-serif;
+        }
+        ```
+
+        Changez la police des en-têtes afin qu'ils se démarquent du corps (body) du texte. Utilisez un sélecteur précis pour remplacer le style hérité.
+        
+        ```
+        h1, h2 {
+          font-family: "Nixie One", serif;
+        }
+        ```
+        
+        Dans le projet LLC, `h1` et `h2` sont en majuscules et n'utilisent pas le style gras des en-têtes par défaut. Vous pouvez changer cela en utilisant les propriétés de l'exemple ci-dessous :
+        ```
+        h1, h2 {
+          font-family: "Nixie One", serif;
+          font-weight: 300; /* remplace le style par défaut */
+          text-transform: uppercase;
+        }
+        ```
+        ---
+        ###Truc de pro!
+        Ajoutez une ou deux déclarations CSS, puis sauvegardez et rafraîchissez le navigateur. Vous minimiserez les erreurs si vous vérifiez quelques changements à la fois.
+      </script>
+    </section> 
+
+    <section class="slide small-type" data-markdown>
+      <script type="text/template">
+        #Exercice n° 4 - Typographie (~10 à 15 minutes)
+
+        Ces directives suivent l'exemple de projet de LLC, mais vous pouvez choisir vos propres polices, tailles, couleurs et styles de typographie. (Nous parlerons de l'espacement et de la disposition dans les prochains exercices.)   
+        
+        1. Ajoutez la propriété `color` dans `body` pour remplacer la couleur noire par défaut.  
+        Le projet LLC utilise le code hexadécimal `#333333` (gris presque noir).
+        
+        1. Par défaut, les liens sont bleus et n'héritent pas la propriété `color` dans `body`.
+          * Utilisez le sélecteur précis (a) pour changer la couleur.
+          * Choisissez une couleur différente de celle du corps (body).
+          * Vous pouvez aussi enlever le soulignement par défaut avec le CSS!
+          * Consultez la diapositive des couleurs [CSS colors slide](#colours) (Ressources pour la syntaxe et les couleurs).
+          
+        1. Utilisez un sélecteur *descendant* pour changer la taille de la police (`font-size`) de `h1` et de `h2` dans l'en-tête (`header`). (Le projet LLC utilise les tailles 48 px et 24 px, respectivement.)
+        
+        **Bonus** : Sélectionnez une image d'arrière-plan pour votre page d'accueil.
+        
+        * Sélectionnez une image du dossier **images** ou utilisez la vôtre.
+        * Les images d'arrière-plan devraient avoir une largeur entre 1 000 et 1 400 px.
+        * Vous pouvez télécharger des images sans droits d'auteur [ici](https://medium.com/@dustin/stock-photos-that-dont-suck-62ae4bcbe01b#.kl0cpopcn).
+        
+        La prochaine diapositive contient la solution.
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Solution / Révision
+        
+        **Truc de pro!** Utilisez les commentaires pour organiser vos blocs de CSS!
+        
+        Voici les ajouts :
+        ```
+        /* STYLES GLOBAUX
+        -----------------------------------------*/
+        body {
+          color: #333333; /* change la couleur par défaut du texte */
+        }
+        a {
+          color: #bf6d50; /* change la couleur des liens par défaut */
+          text-decoration: none; /* enlève le soulignement par défaut */
+        }
+        
+        /* STYLES D'EN-TÊTE
+        -----------------------------------------*/
+        header h1 {
+          font-size: 48px;
+        }
+        header h2 {
+          font-size: 24px;
+        }
+        ```
+        
+        Consultez l'exemple du fichier <!-- .element: class="note" -->[ex4_fr](project/examples/ex4-apropos_fr.html) comme référence.  
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+      #Modèle de la « boîte »
+      ##Espaces et tailles du CSS
+      </script>
+    </section> 
+    
+    <section class="slide side-by-side" data-markdown>
+      <script type="text/template">
+        #Espacement en CSS
+
+        Pour le prochain exercice, nous utiliserons `margin` (marge) et `padding` (remplissage) pour mettre à jour les styles d'en-tête et l'espacement du contenu. (Nous ajouterons des styles supplémentaires plus tard.)
+
+        Ces modifications changeront la page, en la faisant passer de l'exemple à gauche à l'exemple à droite.
+
+        ![exercise 5](framework/img/workshop/ex-spacing1.jpg)
+        ![exercise 5](framework/img/workshop/ex-spacing2.jpg)
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Qu'est-ce que le modèle de la « boîte »?
+
+        Le navigateur voit les éléments HTML comme une « boîte » carrée ou rectangulaire.
+        Le modèle de la « boîte » CSS décrit la taille des blocs en fonction des propriétés `width` (largeur), `height` (hauteur), `margin` (marge), `padding` (remplissage) et `border` (bordure).
+        
+        <!-- ![](framework/img/workshop/box-model.gif) -->
+        ![](framework/img/workshop/box-model-outline.jpg)
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Largeur et hauteur
+        
+        Les propriétés `width` (largeur) et `height` (hauteur) peuvent être indiquées avec le CSS.
+        
+        <textarea class="snippet" data-subject="#padding">background: lightblue;
+        width: 500px; 
+        height: 200px;</textarea>
+        
+        <div id="padding"></div>
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Remplissage
+        
+        Le remplissage (`padding`) ajoute / enlève de l'espace à l'**intérieur** de la boîte en utilisant des valeurs de 1 à 4. En indiquant une valeur de 0, le remplissage par défaut disparait.
+        
+        ```css
+        padding: 2px 2px 2px 2px; /*  haut, droit, bas, gauche */
+        padding: 2px 2px 2px; /*  haut, droit et gauche, bas */
+        padding: 2px 2px; /* haut et bas, droit et gauche */
+        padding: 2px; /* même quantité de remplissage de tous les côtés */
+        ```
+        <textarea class="snippet" data-subject="#padding">background: lightblue;
+        padding: 20px;</textarea>
+        <div id="padding">essai de remplissage</div>
+        
+        <!-- .element: class="note" -->**Remarque **: Les valeurs peuvent être déclarées avec de nombreuses unités différentes. Apprenez-en plus [ici](https://developer.mozilla.org/fr/docs/Web/CSS/length). 
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Marge
+        
+        La marge (`margin`) ajoute / enlève de l'espace **autour** de l'élément. Tout comme le remplissage, elle utilise des valeurs de 1 à 4.
+        
+        <textarea class="snippet" data-subject="#margin">background: lightblue;
+        margin: 20px 40px;</textarea>
+        <div id="margin">essai de marge</div>
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Remplissage et marge : version longue
+        
+        Tant la marge (`margin`) que le remplissage (`padding`) peuvent être déclarés en précisant un côté à l'aide de la version longue de la propriété.
+
+        ```
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        ```
+        ```
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        ```
+        
+        Par ailleurs, `margin` accepte les valeurs négatives, mais ce n'est pas le cas de `padding`.
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Bordure
+
+        La propriété `border` (bordure) se situe entre `margin` et `padding` et crée un contour autour de l'élément. Cette propriété aussi a une version longue.
+
+        ```
+        /* version longue */
+        border-width: 2px;
+        border-style: solid;
+        border-color: red;
+
+        /* version courte */
+        border: 2px solid red;
+        ```
+        
+        <textarea class="snippet" data-subject="#border">background: lightblue;
+        margin: 10px 40px;
+        padding: 20px;
+        border: 2px solid red;</textarea>
+        <div id="border">essai de bordure</div>
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Bordure
+        Comme pour le remplissage et la marge, il est possible de préciser un côté précis de l'élément.
+
+        ```
+        /* version longue */
+        border-top-width: 2px;
+        border-top-style: solid;
+        border-top-color: red;
+
+        /* version courte */
+        border-top: 2px solid red;
+        ```
+        
+        <textarea class="snippet" data-subject="#border">border-top: 2px solid red;</textarea>
+        <div id="border">essai de bordure</div>
+      </script>
+    </section> 
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe - Espacement
+
+        Ajoutez du remplissage aux éléments `header`, `nav` et `main`. Celui-ci doit occuper une quantité d'espace égale autour des blocs de contenu.
+
+        ```
+        header,
+        nav,
+        main {
+          padding: 20px 30px;
+        }
+        ```
+
+        Enlevez l'espace par défaut de `h1` et `h2`. (Ajoutez-le au bloc de déclaration actuel `h1, h2`.)
+
+        ```
+        h1, h2 {
+          margin: 0; /* enlève l'espace par défaut */
+        }
+        ```
+        
+        <!-- .element: class="note" -->**Note**: Ces changements s'afficheront mieux dans la page **À propos**, car il s'agit de la seule page ayant du contenu principal (`<main>`), mais vous pourrez voir les changements apportés à l'en-tête sur toutes les pages.
+      </script>
+    </section>  
+    
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Disposition de la page avec le CSS
+        ##Éléments block, inline, float
+      </script>
+    </section>
+    
+    <section class="slide side-by-side" data-markdown>
+      <script type="text/template">
+        #À propos de la disposition de la page
+        
+        Parlons de l'apparence actuelle de la page À propos. Celle-ci ressemble à l'exemple de gauche, et nous voulons qu'elle ressemble à l'image de droite.
+        
+        ![](framework/img/workshop/about-not-floated.png)
+        ![](framework/img/workshop/about-floated.png)
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Éléments block et inline
+
+        Par défaut, certains éléments HTML sont  organisés en bloc (**block**) ou en ligne (**inline**).
+
+        ##Éléments en bloc (block)
+        *   Ils occupent 100 % de la largeur du contenant
+        *   Ils sont affectés par les éléments CSS de taille (margin, padding, height, width)
 
         <textarea class="snippet" data-subject="#block">background: lightblue;
         padding: ;
         margin: ;
         width: ;
         height: ;</textarea>
-        <div id="block">Je suis un bloc.</div>
+        <div id="block">Je suis un élément en bloc.</div>
       </script>
     </section> 
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Éléments en bloc et en ligne
+        #Éléments en bloc (block) et en ligne (inline)
 
-        ##Éléments en ligne
-        *   de la même largeur que le contenu
-        *   s'affichent toujours « en ligne » avec d'autres éléments en ligne
-        *   n'applique pas du tout la hauteur (height) et la largeur (width) du CSS
-        *   applique la marge (margin) et le remplissage (padding), mais de manière inattendue
+        ##Éléments en ligne (inline)
+        *   Ils font la même largeur que le contenu
+        *   Ils apparaîssent toujours « en ligne » avec d'autres éléments de niveau « inline »
+        *   Ils ne prennent pas en compte la hauteur et la largeur CSS
+        *   Ils appliquent les marges et le remplissage, mais de manière imprévisible
 
         <textarea class="snippet" data-subject="#inline">background: orange;
         padding: ;
         margin: ;
         width: ;
         height: ;</textarea>
-        <span id="inline">Je suis un élément en ligne.</span> 
+        <span id="inline">Je suis un élément en ligne (inline).</span> 
       </script>
     </section> 
-
-    <section id="margin-padding" class="slide" data-markdown>
+      
+    <section class="slide" data-markdown>
       <script type="text/template">
-        #Les marges et le remplissage
-
-        Les valeurs de `margin` et de `padding` s'étendent de 1 à 4 pour cibler différents côtés de l'élément. Il est possible d'utiliser une variété d'unités de mesure (p.ex. px, %, ems, rems).
-
-        Si vous mettez une valeur de « 0 », tout l'espace existant par défaut sera *effacé*. Si vous mettez une valeur positive, vous *ajouterez* de l'espace.
-
-        Les marges peuvent aussi accepter des valeurs négatives, mais ce n'est pas le cas du remplissage.
-
-        ```css
-        padding: 2px 10px 2px 10px; /* en haut, à droite, en bas, à gauche */
-        padding: 2px 10px 2px; /* en haut, à droite et à gauche, en bas */
-        padding: 2px 10px; /* en haut et en bas, à gauche et à droite */
-        padding: 2px /* tous les côtés ont la même valeur */
-        ```
-        ```css
-        margin: 2px 10px 2px 10px; /* en haut, à droite, en bas, à gauche */
-        margin: 2px 10px 2px; /* en haut, à droite et à gauche, en bas */
-        margin: 2px 10px; /* en haut et en bas, à gauche et à droite */
-        margin: 2px /* tous les côtés ont la même valeur */
-        ```
-      </script>
-      </section>
-
-      <section class="slide" data-markdown>
-      <script type="text/template">
-        #Les marges et le remplissage
-
-        Tant pour les marges que pour le remplissage, il est possible d'utiliser les versions longues des propriétés pour cibler un côté précis.
-
-        ```css
-        margin-top: 2px;
-        margin-right: 2px;
-        margin-bottom: 2px;
-        margin-left: 2px;
-        ```
-
-        ```css
-        padding-top: 2px;
-        padding-right: 2px;
-        padding-bottom: 2px;
-        padding-left: 2px;
-        ```
-      </script>
-    </section>
-
-    <section class="slide">
-      <h1>Exercice!</h1>
-
-      <p>Exercez-vous à utiliser les marges (margin) et le remplissage (below) en mettant des valeurs de 1 à 4 dans l'exemple ci-dessous.</p>
-      <textarea class="snippet" data-subject="#example">background: lightblue;
-padding: 0px;
-margin: 0px;</textarea>
-      <div id="example" class="example">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nesciunt sint beatae dolor dolorum aliquid quis explicabo vitae numquam, quas illo dolore molestiae ratione, perferendis, deleniti nemo ea voluptatibus! Quibusdam.</p>
-      </div>
-
-      <p>Remarquez que la couleur d'arrière-plan ne se fond pas à l'espace créé par <code>margin</code> puisque margin ajoute de l'espace <strong>autour</strong> et à <strong>l'extérieur</strong> de l'élément.</p>
-    </section>
-
-    <section class="slide title" data-markdown>
-      <script type="text/template">
-        #ATTENDEZ, CE N'EST PAS FINI!
+        #De retour à la page À propos
+        
+        Les éléments header, nav and p sont des éléments en bloc (*block*).
+        
+        Ils s'affichent l'un par dessus l'autre, car ils prennent 100 % de la largeur du contenant par défaut. Par conséquent, ils s'affichent sur leur propre ligne.
+        
+        ![](framework/img/workshop/about-not-floated.png) <!-- .element: width="60%" -->
       </script>
     </section>
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Encore plus précis : utilisation de class
+        #Disposition de la page : float, display et flexbox
         
-        Vous souvenez-vous des attributs `lang` et `charset`? Il y a un attribut très pratique que nous pouvons employer : l'attribut `class` (classe).  
+        Il y a quelques options différentes pour créer une disposition de page.
         
-        La valeur de `class` est à votre choix! Une classe s'ajoute à n'importe quelle balise pour ajouter des renseignements supplémentaires d'identification.
+        Les options `display` (affichage) et `float` (flottement) sont les plus courantes. Celles-ci peuvent être employées pour changer la position des éléments, mais elles ont toutes les deux leurs avantages et leurs désavantages.
+        
+        L'option la plus récente est `flexbox` (boîte flexible), mais elle n'est supportée que par les versions 10 et plus récentes d'Internet Explorer (Edge). Elle n'est pas supportée par la version 9 et celles plus anciennes.
+        
+        Aujourd'hui, nous utiliserons `float`. Consultez les ressources ci-dessus pour obtenir plus d'informations.
+        
+        ---
+        ###Ressources (en anglais)
+        
+        * http://caniuse.com/#search=flexbox
+        * [Floats, Inline Block or Display Table? Or Flexbox?](http://blog.karenmenezes.com/2014/apr/13/floats-inline-block-or-display-table-or-flexbox/)
+        * [Float vs Inline-block](http://www.ternstyle.us/blog/float-vs-inline-block)
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Propriété CSS : float
+
+        La propriété `float` est une manière d'enligner les éléments block les uns à côté des autres. Toutefois, pour utiliser `float`, la disposition naturelle de la page doit être *brisée*.
+        
+        <img class="delayed" src="framework/img/workshop/huh.gif">
+
+        <p class="delayed">Ne vous inquiétez pas, nous allons la réparer.</p>
+      </script>
+    </section>
+
+    <section class="slide">
+      <h1>Propriété CSS : float</h1>
+
+      <p> Utilisez la propriété <code>float</code> avec une valeur <code>left</code> ou <code>right</code> pour aligner l'élément d'un côté ou de l'autre. Tous les éléments <em>après</em> l'élément « flottant » bougeront à côté de celui-ci. Essayez-le!</p>
+      
+      <textarea class="snippet" data-subject="#float">img { 
+  float: ;
+}</textarea>
+      <div id="float">
+        <img src="http://placehold.it/150x150" alt="placeholder image">
+        <p style="margin-top:0;">Balise de paragraphe - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea id quasi iusto, ex cumque omnis iste eveniet mollitia.</p>
+      </div>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Précisons à l'aide des classes
+        
+        Pour appliquer le flottement (`float`) *seulement* à l'image de profil, il est impossible d'utiliser `img` comme sélecteur. Nous utiliserons plutôt un attribut `class` (classe). 
+        
+        Vous décidez de la valeur de `class`! L'attribut peut être ajouté à toutes les balises pour y ajouter des informations d'identification supplémentaires.
         
         ```xml
-        <img class="profile-img" src="images/profil.jpg" alt="Votre nom">
+        <img class="profile-img" src="images/profile.jpg" alt="Votre nom">
         ```
         ```css
         img {
           /* toutes les images */
         }
         .profile-img {
-          /* les éléments avec l'attribut `class` « profile-img » */
+          /* tout élément avec la classe de 'profile-img' */
         }
         ```
         
-        Veuillez noter que pour employer `class` comme sélecteur, celui-ci doit commencer par un point suivi du nom de la classe, sans espaces.
+        Pour utiliser `class` comme sélecteur, il est essentiel de commencer par un point, puis de mettre le nom de la classe sans espaces.
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe : faites flotter l'image!
+        
+        Dans **apropos_fr.html**, ajoutez l'attribut `class` à la balise de la photo de profil.  
+        
+        Bien que vous puissiez nommer les classes comme vous le voulez, choisissez un nom de classe fonctionnel et descriptif, comme « profil », « image-profil », ou «profil-img ».
+        
+        Puis, dans **styles.css**, faites flotter l'image en mettant le nom de la classe comme sélecteur.
+        
+        (Nous n'avons fait que la partie qui « brise » la page. Dans la prochaine diapositive, nous aborderons comment la faire retourner dans son « empilage » par défaut.)
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #float et empilage
+        
+        Maintenant, l'image et le texte s'affichent l'un à côté de l'autre par défaut, mais il y a un problème. La boîte rouge dans l'exemple ci-dessous surligne le contenu de `blockquote` et de `footer`.
+        
+        ![](framework/img/workshop/about-floated-notcleared.png)
+        
+        Quand un élément flotte (`float`), *tout* ce qui suit flotte tant et aussi longtemps qu'il y a de l'espace. Dans ce projet, nous voulons que seuls les paragraphes flottent à côté de l'image.
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Vider float
+        
+        Premièrement `float` brise l'empilage afin que les éléments block s'enlignent les uns à côté des autres. Vous devez vider (*clear*) « float » afin que le reste de la page retourne dans l'ordre normal d'empilage.
+        
+        Decidez de l'emplacement dans la page où celle-ci doit retourner à son état initial. Dans ce projet, cet emplacement est l'élément `<blockquote>`.
+          
+        ![](framework/img/workshop/about-floated-clear-element.png)
       </script>
     </section>
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Sélecteurs descendants
-
-        Les sélecteurs descendants correspondent aux éléments qui sont des descendants (balises emboîtées) d'un autre élément.
-
-        Ils sont utiles pour cibler des éléments à l'intérieur d'un bloc précis de contenu (p.ex. un `h1` dans un en-tête `header`).
-
-        Remarquez qu'il y a une espace *entre* chacun des sélecteurs : c'est obligatoire.
-
-        ```css
-        p a {
-          /* cible seulement les balises d'ancrage (de lien) emboîtés à l'intérieur d'une balise p */
+        #Exercice de groupe : Vider float
+        
+        Sélectionnez l'élément à vider (en d'autres mots, l'endroit où la page doit redevenir normale). Appliquez la propriété `clear`. La valeur `both` (les deux) videra soit le float de gauche (`left`) ou de droite (`right`).
+        
+        ```
+        blockquote {
+          clear: both;
         }
-        ul li a {
-          /* cible un lien emboîté à l'intérieur d'un élément d'une liste non numérotée */
+        ```
+        Cela fera revenir la page à son état normal à l'emplacement indiqué.
+        
+        ![](framework/img/workshop/about-floated-cleared.png)
+        
+        Ajoutons ces éléments à notre page.
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Faites flotter header et nav
+        
+        Nous allons faire la même chose avec `header` et `nav`, mais `header` flottera à la gauche tandis que `nav` flottera à la droite.
+        
+        Revisitons le HTML pendant quelques secondes pour décider des éléments à faire flotter et où les vider.
+        
+        ```
+        <!-- faire flotter à gauche -->
+        <header>
+          <h1>Jane Smith</h1>
+          <h2>Web Developer + City Girl</h2>	
+        </header>
+        
+        <!-- faire flotter à droite -->
+        <nav>
+          <a href="index_fr.html">Index</a>
+          <a href="apropos_fr.html">À propos</a>
+          <a href="contact_fr.html">Contact</a>
+        </nav>
+        
+        <!-- vider float ici -->
+        <main role="main">
+        </main>
+        ```
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice n° 5: float et exercices supplémentaires (~20 minutes)
+        
+        À l'aide du plan de la diapositive précédente, appliquez le flottement à header et à nav. Votre page ressemblera à ceci : 
+        
+        ![](framework/img/workshop/about-header-float.jpg) <!-- .element: width="700px" -->
+        
+        Videz float pour la faire ressembler à ça :
+        
+        ![](framework/img/workshop/about-header-cleared.jpg) <!-- .element: width="700px" -->
+        
+        Consultez les fichiers d'exemple ex5-apropos_fr.html et ex5_fr.css pour vérifier votre code.
+        
+        **Les exercices supplémentaires se trouvent à la diapositive suivante.**
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice supplémentaire n° 5 - Donner du style à la page À propos
+          
+        1. Ajoutez une marge à la droite de la photo de profil pour qu'il y ait de l'espace entre celle-ci et les paragraphes.
+        
+        2. Ajoutez du remplissage aux liens dans la navigation. <span class="note">(Indice! Utilisez un sélecteur *descendant* pour appliquer le style seulement aux liens de nav.)</span>
+        
+        3. Ajoutez du remplissage à `blockquote` pour améliorer l'espacement ou ajoutez `text-align: center;` pour voir si cela vous plaît.
+        
+        4. Changez la famille et la taille de la police (`font-family` et `font-size`) du paragraphe seulement dans `blockquote` afin qu'il se démarque du texte du corps.  L'exemple de projet utilise la police Google « Pacifico » avec une taille (`font-size`) de 30 px.  
+        <span class="note">(Indice! Utilisez un sélecteur descendant pour appliquer le style au paragraphe à l'intérieur du blockquote.)</span>
+        
+        Votre page devrait maintenant ressembler à ça : [ex5-apropos-bonus_fr.html](project/examples/ex5-apropos-bonus_fr.html) et ex5-bonus_fr.css (dossier **examples**).
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Aller plus loin avec float
+        
+        Pour différents scénarios de flottement, il y a des démarches différentes à suivre.
+        
+        Il s'agit d'un concept allant au-delà du cours. Pour plus d'informations, consultez ces ressources supplémentaires (en anglais) :
+        
+        * [CSS Fundamentals: Containing Children](http://code.tutsplus.com/tutorials/css-fudamentals-containing-children--net-5664)
+        * [Clearing Floats: An Overview of Different clearfix Methods](http://www.sitepoint.com/clearing-floats-overview-different-clearfix-methods/)
+        * [Force Element To Self-Clear its Children](http://css-tricks.com/snippets/css/clear-fix/)
+      </script>
+    </section>
+    
+    <section id="background" class="slide title background" data-markdown>
+      <script type="text/template">
+        #Images d'arrière-plan!
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Donner du style à la page d'accueil
+
+        Le style final de notre projet est différent de celui des deux autres pages. Par conséquent, nous devrons créer deux styles spéciaux juste pour la page d'accueil. 
+
+        Utilisez l'attribut `class` pour appliquer ces styles particuliers.
+
+        Dans **index_fr.html**, nous ajouterons `class` dans la balise `body` pour remplacer les styles des éléments de toute la page.
+
+        ```
+        <body class="accueil">
+        ```
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Images d'arrière-plan
+
+        Jusqu'à maintenant, nous avons utilisé `background` pour ajouter des couleurs. En fait, il s'agit d'un élément à utiliser pour ajouter des images qui ne font pas partie du contenu, mais qui servent à la présentation.
+
+        ```
+        background-image: url(path/to/file.jpg); /* version longue */
+        background: url(path/to/file.jpg);/* version courte */
+        ```
+        
+        Comme **styles.css** se trouve à l'*intérieur* d'un dossier **css**, ajoutez `../` pour aller *d'un côté à l'autre* du dossier dans le chemin *relatif* des fichiers images.
+        
+        ```xml
+        |-- project
+          |-- css
+            |-- styles.css
+          |-- images
+            |-- profile.jpg
+            |-- background-1.jpg
+            |-- background-2.jpg
+            ...etc  
+        ```
+        
+        ```
+        background: url(../images/background-1.jpg);
+        ```
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe : Images d'arrière-plan
+        
+        Dans **index_fr.html**, ajoutez `class` dans la balise `body`.
+        
+        ```
+        <body class="accueil">
+        ```
+        
+        Dans **styles.css**, utilisez `.accueil` comme sélecteur afin que cette image ne s'affiche que sur la page d'accueil et s'étende partout.
+        
+        (Choisissez parmi les images de <!-- .element: class="note" -->`background-1.jpg` à `background-8.jpg` ou mettez la vôtre.)
+
+        ```
+        .accueil {
+          background: url(../images/background-6.jpg);
+        }
+        ``` 
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Répétition de l'arrière-plan
+
+        Si l'image est plus petite que la largeur ou la hauteur de l'élément auquel s'applique l'image d'arrière-plan, l'image sera répétée.
+        
+        ![](framework/img/workshop/bg-repeat.png) <!-- .element: width="75%" -->
+        
+        <!-- .element: class="note" -->**Remarque** : Le bas de page apparaît en haut de la page d'accueil et de contact, car celles-ci n'ont pas encore de contenu contrairement à la page À propos. Nous aborderons ce sujet plus tard.
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe : Répétition de l'arrière-plan
+        
+        Il est possible de changer la répétition en ajoutant une autre propriété d'arrière-plan, `background-repeat` (version longue) ou de l'ajouter à la propriété (version courte) `background`.
+        
+        Si vous utilisez les versions courtes des propriétés, n'oubliez pas d'ajouter une espace *entre* les valeurs.
+
+        ```
+        /* version courte */
+        .accueil {
+          background: url(../images/background-6.jpg) no-repeat; 
+        }
+
+        /* version longue */
+        .accueil {
+          background-image: url(../images/background-6.jpg); 
+          background-repeat: no-repeat;
+        }
+        ```
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Arrière-plan : no-repeat
+
+        Grâce à cette valeur, l'image ne se répète plus, mais il est possible qu'elle ne s'étende pas sur toute la largeur selon la taille du fichier image.
+
+        ![arrière-plan de l'accueil](framework/img/workshop/bg-size-nocover.png)
+        
+        La position et la taille de l'image peuvent être modifiées à l'aide des propriétés `background-position` et  `background-size`.
+      </script>
+    </section> 
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe : Image d'arrière-plan en entier
+        
+        Comme l'image d'arrière-plan s'applique au corps (`body`), insérons une règle supplémentaire pour nous assurer que les styles couvreront tout l'écran.
+        
+        Ajoutons-la en haut du fichier css dans la section « styles globaux » pour garder le CSS en ordre.
+        
+        ```
+        html, body {
+          height: 100%;
+        }
+        ```
+        Vous ne verrez pas encore de changement, mais cette règle sera nécessaire après avoir ajouté la propriété `background-position`.
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Arrière-plan : background-position
+        
+        La propriété `background-position` est utilisée pour faire bouger une image d'arrière-plan à l'intérieur de son contenant.
+        Elle accepte trois différents types de valeurs : des pixels, des pourcentages et des mots-clés. 
+        
+        Les valeurs par défaut, `0 0`, positionnent l'image d'arrière-plan en *haut à gauche* du contenant. Si vous mettez une seule valeur, celle-ci sera utilisée pour la position horizontale et verticale.
+        
+        ```
+        /* version courte */
+        .accueil {
+          background: url(../images/background-6.jpg) no-repeat 50%; 
+        }
+
+        /* version longue */
+        .accueil {
+          background-image: url(../images/background-6.jpg); 
+          background-repeat: no-repeat;
+          background-position: 50%;
+        }
+        ```
+        
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Arrière-plan : background-position
+        
+        En ce faisant, l'arrière-plan s'alignera au milieu de l'élément qui le contient, horizontalement et verticalement.
+        
+        ![](framework/img/workshop/bg-position.png)
+        
+        Toutefois, cela ne suffit pas pour couvrir l'écran en entier.
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Propriété background-size
+        
+        La propriété `background-size` est utilisée pour changer la taille de l'image d'arrière-plan avec le CSS plutôt que de modifier l'image elle-même. Elle peut être ajoutée dans sa version longue comme ça :
+        
+        ```
+        .accueil {
+          background-image: url(../images/background-6.jpg);
+          background-repeat: no-repeat;
+          background-position: 50%;
+          background-size: cover;
+        }
+        ```
+              
+        Afin d'inclure la propriété dans sa version courte, il faut connaître sa particularité. Elle _doit_ être ajoutée après `background-position` et séparée avec le caractère `/`.  
+        ```
+        .accueil {
+          background: url(../images/background-6.jpg) no-repeat 50% / cover;
         }
         ```
       </script>
@@ -1318,523 +2192,413 @@ margin: 0px;</textarea>
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Sélecteurs descendants
-
-        **Truc de pro!** Comme dans [Inception](http://www.imdb.com/title/tt1375666/), évitez d'avoir plus de trois niveaux d'emboîtement.
-
+        #Propriété background-size
+        
+        Si aucune valeur de position d'arrière-plan n'est indiquée (ce n'est pas obligatoire), `background-size` ne fonctionnera pas dans sa version courte. 
+        
+        Dans ce cas-ci, il est peut-être plus sécuritaire d'utiliser la version longue pour éviter les erreurs.
+        
         ```
-        nav ul li a {
-          /* NOOOOOOOOOOON */
+        .accueil {
+          background: url(../images/background-6.jpg) no-repeat;
+          background-size: cover;
         }
         ```
+      </script>
+    </section> 
 
-        Il est possible de sauter un niveau, mais les règles de spécificité s'appliquent.
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe : background-size
+        
+        Mettons à jour l'image d'arrière-plan de la page d'accueil à l'aide de `cover`.  
+        
+        ```
+        .accueil {
+          background: url(../images/background-6.jpg) no-repeat;
+          background-size: cover;
+        }
+        ```
+        En plus de `cover`, il y a d'autres valeurs de taille d'arrière-plan (background-size). Consultez les ressources ci-dessous pour en savoir plus.
+        
+        En guise de référence, vous pouvez aussi consulter les fichiers <!-- .element: class="note" --> **ex6-index_fr.html** et **ex6_fr.css** pour voir les styles d'arrière-plan.
+        
+        ---
+        ###Ressources (en anglais)
+        * [À propos de background-size](http://www.css3.info/preview/background-size/)
+        *   [http://www.gratisography.com/](http://www.gratisography.com/) (images sans droits d'auteur)
+        *   [http://nos.twnsnd.co/](http://nos.twnsnd.co/) (images sans droits d'auteur)
+        *   [http://unsplash.com/](http://unsplash.com/) (images sans droits d'auteurs)
+      </script>
+    </section>
+    
+    <section class="slide side-by-side" data-markdown>
+      <script type="text/template">
+        #Bas de page « épinglé »
+        
+        Actuellement, la page À propos est la seule ayant du contenu. C'est pourquoi le bas de page apparaît en bas de la page. En temps et lieu, la page Contact aura elle aussi du contenu, mais seulement la page d'accueil est terminée en ce moment.
+        
+        ![](framework/img/workshop/footer-home.png)
+        ![](framework/img/workshop/footer-about.png)
+        
+        Nous pouvons ajouter un bas de page « épinglé » pour nous assurer qu'il reste bien en bas peu importe la qualité de contenu sur la page.
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice de groupe : Ajouter un bas de page épinglé
+        
+        Premièrement, créez un « habillement » pour séparer le contenu de la page du bas de page.  Nous utiliserons `<div>` et `class="page-wrap"`. N'ajoutez pas le bas de page (footer).  
+          
+        Pour un code bien organisé, vous pouvez aussi ajouter un commentaire pour indiquer où se trouve la balise de fermeture `<div>`.
+        
+        ```
+        <div class="page-wrap">
+          <header>
+            <h1>Jane Smith</h1>
+            <h2>Web Developer + City Girl</h2>
+          </header>  
+          <nav>
+            ...
+          </nav>  
+        </div><!-- close .page-wrap -->
 
-        Par exemple, `nav ul li a` remplacerait `nav a` parce qu'il est plus précis.
-
-        Généralement, il est préférable de commencer avec des sélecteurs génériques et d'en ajouter des plus précis, au besoin.
+        <footer>
+        ...
+        </footer>
+        ```
+        Ajoutons cet habillement aux trois pages HTML. De plus, dans la page À propos, n'oubliez pas d'inclure le bloc de contenu principal `<main>`. Mettez tout, sauf le bas de page!
+        
+        Pour votre information, les directives suivantes sont tirées de <!-- .element: class="note" -->[ce tutoriel](http://css-tricks.com/snippets/css/sticky-footer/). (en anglais)
       </script>
     </section>
 
     <section class="slide" data-markdown>
-        <script type="text/template">
-        #Exercice de groupe : donner du style à l'en-tête
+      <script type="text/template">
+        #CSS : Bas de page épinglé
+        
+        Ajoutez ce bloc CSS en entier dans **styles.css**. Assurez-vous que la classe `page-wrap` est bien écrite, exactement comme dans les fichiers HTML et CSS.
+        
+        ```
+        /* STYLES DE BASE DE PAGE
+        -----------------------------------------*/
+        /* Bas de page épinglé - http://css-tricks.com/snippets/css/sticky-footer */
+        .page-wrap {
+          min-height: 100%;
+          margin-bottom: -55px; /* doit être de la même hauteur que le bas de page */
+        }
+        .page-wrap:after {
+          content: "";
+          display: block;
+        }
+        footer, 
+        .page-wrap:after {
+          height: 55px; /* choisissez la hauteur de bas de page de votre choix */
+        }
+        ```
 
-        Ajoutons des styles précis à l'en-tête pour qu'il se démarque du reste de la page. Nous ne pouvons pas utiliser `h1` ou `h2` seuls, car ceux-ci sélectionneraient toutes les balises du même nom sur la page. Employez plutôt les *sélecteurs descendants*.
+        **Remarque** : Dans le lien du tutoriel, vous verrez le code CSS suivant, mais nous l'avons déjà ajouté à notre CSS en ajoutant l'image d'arrière-plan de la page d'accueil.
+
+        ```
+        html, body {
+          height: 100%;
+        }
+        ```
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #CSS : Bas de page épinglé
+        
+        Yé! Le bas de page est vraiment en bas de la page maintenant. Cependant, il y a un problème : il est difficile à voir sur la page d'accueil. Ajoutons un peu de remplissage et une couleur d'arrière-plan pour corriger cela.
+        
+        ```
+        footer {
+          background: white;
+          text-align: center;
+          padding: 1px;
+        }
+        ```
+        Comparez votre page à l'un des fichiers HTML **ex7_fr** et à **ex7_fr.css** dans le dossier **examples**.
+        
+        ---
+        ###Ressources (en anglais)
+        * [Tutoriel pour le bas de page épinglé](http://css-tricks.com/snippets/css/sticky-footer)
+        * À propos de [:after](http://tympanus.net/codrops/css_reference/after/)
+      </script>
+    </section>
+    
+    <section class="slide title final" data-markdown>
+      <script type="text/template">
+        #Dernier exercice!
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Cours accéléré : Formulaires
+
+        Les formulaires servent à obtenir des informations d'un utilisateur. Le traitement et l'envoi des données nécessitent habituellement l'emploi d'un langage côté serveur, comme le PHP, le Ruby ou le Python.
+        
+        Toutefois, il y a différents services pour traiter les informations sans avoir à connaître ces langages!
+
+        Jetons un coup d'oeil au balisage HTML pour commencer.
+      </script>
+    </section>
+    
+    <section class="slide forms" data-markdown>
+      <script type="text/template">
+        #Formulaires HTML
+        
+        Tous les formulaires commencent par l'élément `form` et prennent deux attributs :
+        
+        * `method` - définit la manière dont le formulaire communique avec le serveur Web
+        * `action` - indique le chemin du fichier vers lequel le script du formulaire est traité après son envoi
 
         ```xml
-        <header>
-          <h1>Un mystère de Ladies Learning Code</h1>
-          <h2>Où sont les femmes dans le domaine de la technologie?</h2>
-        </header>
+        <form method="POST" action="path/to/form/script/processing">
+        ...
+        </form>
         ```
-
-        ```
-        header h1 {
-          color: #B109AA;
-          font-size: 60px;
-          margin-bottom: 20px;
-        }
-
-        header h2 {
-          font-size: 40px;
-          margin-top: 0;
-        }
-        ```
-
       </script>
     </section>
-
-<!--     <section class="slide" data-markdown>
+    
+    <section class="slide forms" data-markdown>
       <script type="text/template">
-        #border-radius
-
-        Le CSS3 a amené de nouvelles propriétés telles que `border-radius` (rayon de la bordure), qui est utilisée pour faire des coins ronds ou des cercles. Cela a éliminé le besoin de manipuler des fichiers image pour y parvenir.
-
-        La valeur de la propriété est définie à l'aide de divers unités de mesure.
-        Voyons voir comment il est possible d'utiliser les unités `px` (pixels) et `%` dans les exemples ci-dessous.
-
-        <div class="group">
-          <div class="col-2">
-            <textarea class="snippet" data-subject="#rounded">border-radius: 15px;</textarea>
-
-            <img id="rounded" src="project/reference/images/robots.jpg" alt="beignes" width="150">
-          </div>
-
-          <div class="col-2">
-            <textarea class="snippet" data-subject="#circle">border-radius: 50%;</textarea>
-
-            <img id="circle" src="project/reference/images/robots.jpg" alt="beignes" width="150">
-          </div>
+        #Formulaires HTML
+        
+        Les balises `<label>` (étiquette) et `<input>` (entrée) sont utilisées pour obtenir le contenu entré par l'utilisateur.
+        
+        ```  
+        <label for="nom">Nom</label>
+        <input id="nom" type="text" name="nom">
+        ```
+        <div class="exemple">
+          <label for="nom">Nom</label>
+          <input id="nom" type="text" name="nom">
         </div>
-
-      </script>
-    </section> -->
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # Pseudo-class et effets de pointage de souris
-
-        Il est courant d'appliquer un style de pointage (`hover`) aux liens. Utilisez la propriété CSS *pseudo-class*, `:hover` pour y parvenir.  Ce mot-clé *s'attache* à un sélecteur, spécifie un *état* de l'élément et prend une virgule, mais **pas** d'espace.
-
-        <textarea class="snippet" data-subject="#hover">a {
-          padding: 10px;
-        }
-        a:hover {
-          border: 1px solid black;
-          background: red;
-          color: white;
-        }</textarea>
-        <a id="hover">Je suis un lien!</a>
-      </script>
-    </section>
-
-    <section class="slide title" data-markdown>
-      <script type="text/template">
-        #Création des histoires interactives, des jeux et des questionnaires
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Maintenant que nous avons créé un site simple...
-
-        Pensez à votre histoire, à votre jeu ou à votre questionnaire comme étant une série de plusieurs pages liées les unes aux autres.
-
-        <ul>
-          <li class="delayed">Quelles sont les **autres pages** dont vous avez besoin pour raconter votre histoire?</li>
-          <li class="delayed">Quels **hyperliens** allez-vous utiliser pour permettre aux utilisateurs de naviguer votre site?</li>
-          <li class="delayed">À quoi **ressemblera** votre site en général?</li>
-        </ul>
-
-        <p class="delayed">Voulez-vous faire quelque chose en CSS, mais ne savez pas comment? <br><br>Consultez la [liste des propriétés CSS de Mozilla Developer Network](https://developer.mozilla.org/fr/docs/Web/CSS/Reference) (en français) pour en savoir plus, ou demandez à une de nos mentores!</p>
-
-      </script>
-    </section>
-
-    <section class="slide title" data-markdown data-toc>
-      <script type="text/template">
-        #On s'amuse!
-        ##Créez, amusez-vous, et travaillez ensemble!
-      </script>
-    </section>
-
-    <section class="slide title" data-markdown data-toc>
-      <script type="text/template">
-        #Exercice bonus: <br>créez un jeu d'action!
-        ##ou passez à <a href="#next-steps">la suite</a>
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Notions avancées de CSS
-
-        Si vous avez déjà créé votre jeu textuel ou votre questionnaire, mettez-vous au défi de créer un jeu de carnaval semblable au [jeu d'action](project/reference/game03-action/start.html) du dossier `reference`.
-
-        Si vous êtes coincé, signalez-le à une mentore pour que celle-ci vous aide. Vous pouvez aussi travailler à deux.
-
-        La création de ce jeu nécessite l'utilisation de concepts CSS avancés:
-
-        <ul>
-          <li class="delayed">L'utilisation de `input` (entrée) et de `label` (étiquette) en HTML pour créer des zones cliquables</li>
-          <li class="delayed">Encore plus de pseudo-classes</li>
-          <li class="delayed">Propriété CSS `transform`</li>
-          <li class="delayed">Animations CSS par images clé</li>
-        </ul>
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #CRÉEZ UN JEU D'ACTION
-
-        Comme il s'agit d'un projet plus avancé, il est recommandé de **copier** le dossier `game03-action` (dans le dossier `reference`) en entier et de modifier les fichiers qui s'y trouvent.
-
-        <img src="framework/img/duplicate_fr.gif" alt="Copier le fichier du projet">
-
-        Une bonne façon d'apprendre des concepts avancés est d'examiner le code d'un projet terminé et de le modifier jusqu'à ce qu'il ressemble à ce que vous voulez.
-
-        Ce projet contient aussi deux feuilles de style; ne modifiez le fichier `styles-advanced.css` que si vous avez confiance en vos compétences ou si vous avez l'aide d'une mentore pour ce faire.
+        
+        Les nombreux attributs associent l'étiquette (label) à l'entrée (input), ce qui favorise l'accessibilité et indique le *type* d'entrée à afficher.
+        
+        Nous pourrions donner un cours entier à propos des formulaires! Consultez les ressources ci-dessous pour en savoir plus à ce propos.
+        
+        ---
+        ###Ressources 
+        * [Mozilla Developer Network: Guide pour les formulaires HTML](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires)
+        * [Sitepoint: Form Elements](http://www.sitepoint.com/web-foundations/form-elements/) (en anglais)
+        * [Focus Pocus](http://www.focuspocus.io/) (Service de traitement de formulaire) (en anglais)
+        * [Wufoo](http://www.wufoo.com/) (Service de traitement de formulaire) (en anglais)
+        * [Google Forms](https://www.google.com/forms/about/) (Service de traitement de formulaire)
         
       </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Regardons le projet de plus près
-
-        Ouvrez le fichier `start.html` et regardez à l'intérieur des balises **body**:
-        ```
-          <header>
-            <h1>Le <strong>carnaval</strong> de l'apprentissage du code!</h1>
-          </header>
-          
-          <section>
-
-            <input type="radio" id="target1"/><label for="target1"></label>
-            <input type="radio" id="target2"/><label for="target2"></label>
-            <input type="radio" id="target3"/><label for="target3"></label>
-            <input type="radio" id="target4"/><label for="target4"></label>
-            <input type="radio" id="target5"/><label for="target5"></label>
-
-          </section>
-
-          <footer>
-          </footer>
-        ```
-
-        <p>Le jeu ressemble sans l'ombre d'un doute à notre projet. Il y a un `header`, une `section` et un `footer`, mais...</p>
-        <ul>
-          <li class="delayed">La section contient des balises HTML que nous n'avons pas encore vues: `input` (entrée) et `label` (étiquette)</li>
-          <li class="delayed">Le bas de page est vide (par exprès)</li>
-        </ul>
+    </section> 
     
-      </script>
-    </section>
-
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Balises input et label
+        #Exercice de groupe : Formulaire de contact
 
-        Habituellement, on ne peut pas interagir avec un clic à l'aide du HTML et du CSS. Les interactions par clic se font surtout avec le JavaScript ou le jQuery (une bibliothèque pour JavaScript). Les développeurs contournent ce problème en « piratant » les balises HTML des [formulaires en ligne](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Mon_premier_formulaire_HTML).
-
-        La chose à retenir pour notre projet est d'ajouter l'attribut `id` (identité) à la balise `input` (entrée)...
-
+        Ajoutez le bloc ci-dessous en entier dans **contact_fr.html**, *après* `<nav>` mais *avant* le `page-wrapper` `</div>` de fermeture.
+        
         ```
-        <input type="radio" id="target1"/>
+        <main role="main">
+          <p>On va prendre un café! Envoie-moi un message au <a href="mailto:hello@your-email.com">allo@courriel.com</a> en utilisant le formulaire.</p>
+          
+          <form method="POST" action="">				
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" name="nom">
+            
+            <label for="courriel">Courriel</label>
+            <input id="courriel" type="email" name="courriel">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="envoyer">Envoyer</button>
+          </form>
+        </main>
         ```
-
-        ...correspond à l'attribut `for` (pour) de la balise `label` (étiquette):
-
-        ```
-        <label for="target1"></label>
-        ```
-
-        Il est très important qu'ils correspondent afin que tout fonctionne.
-
-        Remarquez-vous quelque chose à propos de la balise `input` qui la rend particulière?
-
-        C'est<!-- .element: class="delayed" --> une balise HTML **autofermante**.
-
-
       </script>
     </section>
-
+    
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Les étiquettes (input)
-
-        Dans notre projet, les étiquettes (`label`) sont importantes, car elles décrivent l'**apparence** de nos cibles.
-
-        Regardons le CSS des étiquettes:
+        #Exercice de groupe : Formulaire CSS
+        
+        Ajoutons quelques styles de base au formulaire. Ajoutez ce bloc à **styles.css**.
+        
         ```
-        label {
-          background: #B109AA;
-          border-radius: 50%;
-          box-shadow: inset 0 0 0 15px #000000, inset 0 0 0 30px #ffffff;
+        /* STYLES DE CONTACT
+        -----------------------------------------*/
+        form {
+          width: 400px;
+        }
+        input,
+        textarea {
+          border: 1px solid #BF6D50;
+          width: 400px;
+          margin-bottom: 10px;
+        }
+        input {
+          height: 20px;
+        } 
+        textarea {
+          height: 100px;
+        }
+        button {
+          background: #BF6D50;
+          border: none;
+          padding: 10px 40px;
+          font-size: 16px;
         }
         ```
-
-        * L'arrière-plan (`background`) de toutes nos cibles est mauve.
-        * Nos cibles sont circulaires et ont un rayon de bordure (`border-radius`) de 50%
-        * Nous avons utilisé une nouvelle propriété CSS du nom de `box-shadow` (ombre de la boîte) pour forcer le CSS à donner une double bordure à nos cibles. Changez la valeur des pixels et les codes hexa pour voir ce qui se passe!
-
+        
+        Référez-vous à **ex7-contact_fr.html** et à **ex7_fr.css**.
+        
+        ---
+        ###Ressources 
+        * [Apparence des formulaires HTML](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Apparence_des_formulaires_HTML)  
+        * [Bring Your Forms Up to Date With CSS3 and HTML5 Validation](http://webdesign.tutsplus.com/tutorials/bring-your-forms-up-to-date-with-css3-and-html5-validation--webdesign-4738) (en anglais)
+        * [Building Forms](http://learn.shayhowe.com/html-css/building-forms/) (en anglais)
       </script>
     </section>
+    
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+      #C'est fini!
+
+      ![Hein?](http://i.imgur.com/RpCC4.gif)
+
+      Ok, ce n'est pas encore fini. Voici les étapes suivantes.
+      </script>
+    </section>
+    
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Exercices supplémentaires
+
+        Ouf! Nous avons abordé beaucoup de notions aujourd'hui. Il reste quand même quelques éléments à ajouter pour personnaliser nos pages. 
+        
+        * Comme sur la page principale, ajoutez une [image d'arrière-plan](slides_fr.html#background) à la page Contact.
+        * Ajoutez une [favoricône](http://blog.teamtreehouse.com/how-to-make-a-favicon). (en anglais)
+        * Utilisez le site [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) pour ajouter des icônes de réseaux sociaux à la page. (en anglais)
+        * La prochaine diapositive contient des directives pour ajouter des styles de texte spéciaux.
+
+        Jetez un coup d'oeil à la version [finale](project/final/) du projet pour vous inspirer. (Vous la trouverez dans **project > final**).
+      </script>
+    </section>
+    
+    <section id="extra" class="slide" data-markdown>
+      <script type="text/template">
+        #Exercice supplémentaire - Styles de texte spéciaux
+        
+        À l'aide de `class`, créez un style spécial pour surligner des blocs de texte, comme cela :
+        
+        ![](framework/img/workshop/highlighted-text.png)
+        
+        Créez une classe (`class`) et nommez-la quelque chose comme `surligner`. 
+        Ajoutez une propriété CSS comme `color`.
+
+        ```
+        .surligner {
+          color: #bf6d50;
+        }
+        ```
+        Maintenant, cette classe peut être ajoutée à n'importe quel élément pour lui donner ce style en particulier.
+
+        Utilisez la balise `<span>` pour envelopper le texte auquel vous voulez appliquer le style.
+
+        ```xml
+        <h1><span class="surligner">Jane</span>Smith</h1>
+        ```
+
+        Ajoutez cette classe aux endroits où vous souhaitez avoir du texte surligné!
+      </script>
+    </section> 
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Les entrées (inputs): boutons d'option
+        #Ressources supplémentaires (en anglais)
 
-        L'élément `input` (entrée) s'utilise pour créer des commandes interactives dans les formulaires.
+        * [Code School](https://www.codeschool.com)  
+        * [http://css-tricks.com/](http://css-tricks.com/)
+        * [SitePoint CSS Reference](http://reference.sitepoint.com/css)
+        * [Codecademy](http://www.codecademy.com/)
+        * [Smashing Magazine](http://mobile.smashingmagazine.com/)
 
-        Il y a [plusieurs sortes d'entrées](https://developer.mozilla.org/fr/docs/Web/HTML/Element/input). Aujourd'hui, nous utiliserons une entrée avec l'attribut `type` qui porte le nom de `radio`.
-
-        Un **radio button** (bouton d'option) s'emploie dans les formulaires afin que l'utilisateur puisse ne faire qu'un seul choix parmi des choix multiples.
-
-        Les boutons d'option sont donc l'opposé des **cases à cocher** (attribut `checked`) pour faire des choix multiples.
-
-        <img src="framework/img/input-types.png" alt="Radio contre checked">
-
+        Si vous êtes à la recherche d'un livre, en voici un bon par Jon Duckett :
+        [HTML and CSS: Design and Build Websites](http://htmlandcssbook.com/).
       </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #PSEUDO-CLASSE :checked
-
-        Vous souvenez-vous qu'il est possible de cibler un élément avec le CSS à l'aide de la pseudo-class `:hover` en pointant le curseur sur cet élément?
-
-        La même chose se fait en cliquant un **bouton d'option** (radio button), sauf que celui-ci prend la pseudo-classe de `:checked` en CSS.
-
-        Vous en saurez plus à propos de `:checked` dans quelques diapositives...
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #PSEUDO-CLASSE :nth-of-type()
-
-        Une autre pseudo-classe utile est le sélecteur `:nth-of-type()` (ntième du type)
-
-        Le sélecteur `:nth-of-type()` cible des éléments selon leur ordre dans le balisage HTML. Voyons voir la balise section de notre projet:
-
-        ```
-        <input type="radio" id="target1"/><label for="target1"></label>
-        <input type="radio" id="target2"/><label for="target2"></label>
-        <input type="radio" id="target3"/><label for="target3"></label>
-        <input type="radio" id="target4"/><label for="target4"></label>
-        <input type="radio" id="target5"/><label for="target5"></label>
-        ```
-
-        Le projet commence avec 5 cibles. En employant les sélecteurs `:nth-of-type()` du CSS, nous pouvons maintenant sélectionner chaque étiquette (`label`) une par une:
-
-        ```
-        label:first-of-type {
-          ...
-        }
-
-        label:nth-of-type(2) {
-          ...
-        }
-
-        label:nth-of-type(3) {
-          ...
-        }
-
-        label:nth-of-type(4) {
-          ...
-        }
-
-        label:nth-of-type(5) {
-          ...
-        }
-        ```
-
-        Apprenez-en plus sur les pseudo-sélecteurs sur [CSS Tricks](https://css-tricks.com/pseudo-class-selectors/) (en anglais).
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Propriété CSS transform
-
-        La propriété CSS `transform` vous permet de manipuler visuellement (transformer) un élément en le désalignant, en le pivotant, en le déplaçant ou en le mettant à l'échelle tant sur le plan 2D qu'en 3D.
-
-        Aujourd'hui, nous utiliserons la valeur de transformation `rotateX` (pivoterX) pour que les cibles tombent à la renverse.
-
-        <img src="framework/img/css-transforms.gif" alt="Propriété CSS transform">
-
-        Voir le code pour les transformations ci-dessus sur [codepen](http://codepen.io/team/css-tricks/pen/ebb6b5a5cec86aa04168f03e26c7501c?editors=1100) (en anglais)
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Propriété CSS transform
-
-        Pouvez-vous trouver où s'applique la propriété CSS `transform` dans le fichier `styles.css`?
-
-        ```
-        input:checked + label {
-          transform: rotateX(70deg); 
-        }
-        ```
-        <p class="delayed">Un instant, que veut dire le `+`?</p>
-        <p class="delayed">La règle CSS ci-dessus se résume en « étiquette qui suit directement la balise d'entrée " case à cocher " » et applique la propriété CSS `transform` à cette étiquette.</p>
-
-        <p class="delayed">Apprenez-en plus à propos de la propriété CSS `transform` sur [CSS Tricks](https://css-tricks.com/almanac/properties/t/transform/)</p>
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Animations en CSS par images clé
-
-        La dernière pièce du « casse-tête » pour notre jeu d'action est de faire bouger les cibles de droite à gauche de l'écran. Il est possible de ce faire en utilisant les **images clé** (`keyframes`) du CSS.
-
-        Descendez complètement en bas du fichier `styles.css`: c'est là que sont nos images clé.
-
-        ```
-        /* ANIMATION EN CSS PAR IMAGES CLÉ POUR FAIRE BOUGER LES CIBLES
-        - - - - - - - - - - - - - - - - - - - - - */
-        @keyframes move {
-          to {
-              transform: translateX(-100%);
-          }
-        }
-        ```
-
-        Dans l'extrait de code ci-dessus, notre image clé (`keyframe`) s'appelle `move`. Nous voulons que l'animation se concentre sur un déplacement (une translation) avec une valeur de transformation de `translateX(-100%)`.
-
-        <p class="delayed">C'est clair comme de l'eau de bouette, hein?</p>
-
-        <p class="delayed">Ce que cela signifie: nous voulons que l'animation parte de l'écran, vers la gauche, avec une valeur négative de 100%.</p>
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Animations CSS par images clé
-
-        Super. Maintenant que nous avons établi nos images clé (`keyframes`) avec le nom `move`, comment faisons-nous en sorte qu'elles s'appliquent aux éléments de notre CSS?
-
-        Voici comment: la propriété CSS `animation`. Jetons un coup d'oeil à notre fichier `styles.css` à nouveau pour voir où changer le style de la `section`...
-
-        ```
-        section {
-          animation-name: move;
-          animation-duration: 30s;
-          animation-delay: 1s;
-          animation-direction: forwards;
-          animation-timing-function: linear;
-        }
-        ```
-
-        Il y a quelques détails à bien comprendre ici:
-        <ul>
-          <li class="delayed">Nous avons assigné l'image clé `move` à la section à l'aide d'`animation-name` (nom de l'animation)</li>
-          <li class="delayed">Nous avons réglé la durée de l'animation à 30 secondes (essayez de changer cette valeur)</li>
-          <li class="delayed">Nous voulons que l'animation commence 1 seconde après le chargement complet de la page</li>
-          <li class="delayed">Nous voulons que notre animation se dirige vers l'avant (`forwards`)</li>
-          <li class="delayed">Finalement, nous voulons que la vitesse de notre animation soit la même (linéaire) partout (`linear`)</li>
-        </ul>
-
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Personnalisation du jeu
-
-        Maintenant que nous en savons un peu plus à propos de la construction du jeu d'action, essayez de le modifier pour qu'il soit à votre goût!
-
-        * À quoi **changeriez-vous la vitesse** des cibles?
-        * Que faire si vous voulez des **cibles carrées**, pas circulaires?
-        * Changez la **couleur** et la **taille** des cibles et **ajoutez-y des photos de vos amis** en arrière-plan!
-        * Pourquoi n'avoir que 5 cibles? **Ajoutez-en plus** en copiant les entrées et les étiquettes (`input` et `label`), en changeant les attributs `id` et `for` de manière appropriée et en modifiant le CSS à l'aide de la pseudo-classe `nth-of-type`!
-
-      </script>
-    </section>
-
-
-    <section id="next-steps" class="slide title" data-markdown data-toc>
-      <script type="text/template">
-        #La suite
-      </script>
-    </section>
-
+    </section>  
 
     <section class="slide small-type" data-markdown>
       <script type="text/template">
-      #Mettre en ligne son histoire, son jeu ou son questionnaire
+        #Prochaines étapes
 
-      Connectez-vous à l'aide du compte créé pour le Jour d'initiation à la programmation à l'adresse [https://thimble.mozilla.org/fr/](https://thimble.mozilla.org/fr/)
+        Découvrez les autres ateliers de Ladies Learning Code en suivant notre [feuille de route](http://ladieslearningcode.com/roadmap/).
 
-      1. Nom d'utilisateur: **llccodeday** | Mot de passe: **Helloworld123**
-      1. Lorsque vous êtes connecté, cliquez sur `Créer un nouveau projet`. Vous verrez un éditeur de texte et une fonction d'aperçu à l'intérieur du navigateur. On dirait Atom!
-      1. Avant de commencer, **donnez un titre à votre projet!!!** et n'oubliez pas d'écrire votre nom dans le projet.
-      1. Cliquez sur le bouton `+` à côté de « FICHIERS » dans le coin en haut à gauche et téléversez tous vos fichiers HTML et votre fichier CSS.
-      1. Pour créer un dossier *images*, faites un clic droit sur la barre latérale de gauche et cliquez sur `Nouveau répertoire`. Nommez-le « images » et téléversez-y vos images quand le dossier a été créé.
-      1. Quand vous avez terminé, cliquez sur « Publier » et vous obtiendrez un lien vers votre projet que vous pouvez partager sur les réseaux sociaux ou avec vos amis et votre famille!
+        ##Publiez votre site en ligne
 
-      Si vous publiez vos projets sur Twitter aujourd'hui, n'oubliez pas d'utiliser le mot-clic **#llcCodeDay**! Nous aimerions voir ce que vous avez fait! 
+        Vous aurez besoin d'un nom de domaine et d'un hébergement. Voici quelques suggestions :
 
+        * [dreamhost.com](http://www.dreamhost.com/r.cgi?2085384) - noms de domaine et hébergement - utilisez le code promotionnel **LLC40** pour économiser 40 $ sur votre abonnement!
+        * [hover.com](http://hover.com/ladiescode) - noms de domaine - économisez 10 % sur votre abonnement avec le code promotionnel « learningcode »
+
+        Pourquoi séparer son nom de domaine et son hébergement?<!-- .element: class="note" --> [En savoir plus à propos de Hover](http://ladieslearningcode.com/getting-hosted-domains-with-hover/). (en anglais)
+
+        Vous devrez aussi téléverser vos fichiers vers votre serveur d'hébergement. Pour y parvenir, vous aurez aussi besoin des informations que vous donnera votre hébergeur : adresse FTP, nom d'utilisateur, mot de passe.
+
+        Voici un tutoriel pour téléverser vos fichiers en ligne à l'aide de FileZilla:
+        https://wiki.filezilla-project.org/FileZilla_Client_Tutorial_%28fr%29
       </script>
-    </section>
+    </section> 
 
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        # La suite
-
-        Voici quelques idées pour pousser votre projet encore plus loin:
-
-        1. Utilisez des polices d'icônes plutôt que des images pour les icônes vers les réseaux sociaux
-          * Essayez les polices d'icônes de [Font Awesome](http://fortawesome.github.io/Font-Awesome/) (en anglais)
-        1. Ajoutez des métadonnées (metadata) - [voir les informations ici](https://support.google.com/webmasters/answer/79812?hl=fr)
-        1. Ajoutez une favicône [Team Treehouse](http://blog.teamtreehouse.com/how-to-make-a-favicon) (en anglais)
-      </script>
-    </section>
-
-    <section class="slide" data-markdown>
-      <script type="text/template">
-        #Ressources
-
-        1. Tutoriels en ligne:
-          * http://learn.shayhowe.com/html-css/
-          * https://www.codeschool.com/courses/front-end-foundations
-        1. http://www.htmlandcssbook.com
-        1. Participez à d'autres ateliers Ladies Learning Code. Consultez notre plan de route pour connaître votre prochaine destination: [http://ladieslearningcode.com/roadmap](http://ladieslearningcode.com/roadmap)
-      </script>
-    </section>
-
-    <!-- Derniêre diapositive -->
+    <!-- Dernière diapositive -->
     <section class="slide last">
       <h1>Merci!</h1>
-      <h2 class="heading-bg"> </h2>
-      Ensemble nous changeons le monde, un jeu à la fois.
-      <img class="instructor" src="http://cl.ly/image/0r3Q3H110G36/profile-generic.jpg" alt="Nom de la formatrice">
-      <h2><span class="cursive">avec</span> Nom de la formatrice</h2>
+      <h2 class="heading-bg">
+        <span>
+          Introduction au HTML et au CSS :<br>
+          Bâtir un site Web multipages 
+        </span>
+      </h2>  
+
+      <!-- <img class="instructor" src="http://cl.ly/image/0r3Q3H110G36/profile-generic.jpg" alt="instructor name">
+      <h2><span class="cursive">with</span> Instructor Name</h2>
       <ul>
         <li><a href="mailto:">allo@courriel.com</a></li>
         <li><a href="#">monsite.com</a></li>
         <li><a href="http://twitter.com/">@twitter</a></li>
-      </ul>
+      </ul> -->
 
-      <p class="attribution">Diapositives créées par <a href="http://christinatruong.com">Christina Truong</a> à partir de la <a href="https://github.com/LeaVerou/csss">présentation de Lea Verou</a> et de <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
-    </section>
+      <p class="attribution">Diapositives créées par <a href="http://christinatruong.com">Christina Truong</a> à partir de <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> et de <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section> 
 
   </main><!-- section principale cls -->
 
-  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
-  <script src="framework/scripts/slideshow.js"></script>
+<script src="framework/scripts/jquery-1.11.0.min.js"></script>
+<script src="framework/scripts/slideshow.js"></script>
 
-  <!-- Enlevez les balises commentaire des modules dont vous avez besoin -->
-  <script src="framework/scripts/plugins/css-edit.js"></script>
-  <script src="framework/scripts/plugins/css-snippets.js"></script>
-  <script src="framework/scripts/plugins/css-controls.js"></script>
-  <!-- <script src="plugins/code-highlight.js"></script>-->
+<!-- Enlevez les balises de commentaire des modules d'extension dont vous avez besoin -->
+<script src="framework/scripts/plugins/css-edit.js"></script>
+<script src="framework/scripts/plugins/css-snippets.js"></script>
+<script src="framework/scripts/plugins/css-controls.js"></script>
+<!-- <script src="plugins/code-highlight.js"></script>-->
 
-  <script src="framework/scripts/plugins/markdown/marked.js"></script>
-  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
-  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <script src="framework/scripts/llc.js"></script>
-  <script>
-    var slideshow = new SlideShow();
+<script src="framework/scripts/plugins/markdown/marked.js"></script>
+<script src="framework/scripts/plugins/markdown/markdown.js"></script>
+<script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="framework/scripts/llc.js"></script>
+<script>
+  var slideshow = new SlideShow();
 
-    // Prend tous les éléments .snippet (extraits)
-    var snippets = document.querySelectorAll('.snippet');
-    for(var i=0; i<snippets.length; i++) {
-      new CSSSnippet(snippets[i]);
-    }
-  </script>
+// Sélectionne tous les éléments .snippet
+var snippets = document.querySelectorAll('.snippet');
+for(var i=0; i<snippets.length; i++) {
+  new CSSSnippet(snippets[i]);
+}
+</script>
 </body>
 </html>

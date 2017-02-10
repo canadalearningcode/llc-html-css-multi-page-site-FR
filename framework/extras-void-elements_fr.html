@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Ladies Learning Code</title>
+    <link rel="stylesheet" href="css/slideshow.css" data-noprefix>
+    <link rel="stylesheet" href="css/fonts.css" data-noprefix>
+    <link rel="stylesheet" href="css/highlightjs/github.css" data-noprefix>
+    <link rel="stylesheet" href="css/styles.css" data-noprefix>
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- S'occupe des préfixes CSS3 -->
+    <script src="scripts/prefixfree.min.js"></script>
+    
+    <!-- Ouvre tous les liens dans une autre fenêtre -->
+    <base target="_blank">
+  </head>
+  <body>
+    <main>
+    	<section class="slide">
+        <h1>Élément vide / autofermant</h1>
+
+        <p>Les balises vides n'affectent pas la mise en page du contenu. Elles intègrent plutôt des objets à la page. Ces balises <strong>ne viennent pas en paires</strong>, car elles n'habillent pas le contenu comme le font les autres balises que nous avons vues jusqu'à maintenant. Elles <em>sont</em> le contenu!</p>
+
+        <p>Comme la syntaxe est légèrement différente dans la version la plus récente du HTML, vous pourriez voir les balises vides écrites de deux manières différentes.</p>
+        
+        <p>Avant le HTML5, ces balises étaient autofermantes en intégrant une barre oblique vers l'avant directement avant le chevron de droite (<code>/&gt;</code>). En HTML5, les balises vides n'ont pas besoin de s'autofermer.</p>
+
+        <p>La balise br (pour break), qui effectue un saut de ligne, est une balise vide : <code>&lt;br /&gt;</code> ou <code>&lt;br&gt;</code>.</p>
+
+  <pre><code class="xml">&lt;p&gt;Ce texte&lt;br&gt;s'étend sur&lt;br&gt;plusieurs&lt;br&gt;lignes.&lt;/p&gt;</code></pre>
+        
+        <!-- example -->
+        <p class="example">Ce texte<br>s'étend sur<br>plusieurs<br>lignes.</p>
+
+        <p>La règle horizontale est un autre élément vide : <code>&lt;hr&gt;</code> ou <code>&lt;hr /&gt;</code>.</p>
+        
+        <h2>Exemple d'une règle horizontale</h2>
+        <!-- exemple -->
+        <hr>
+      </section>
+    </main><!-- section principale cls -->
+          
+    <script src="scripts/jquery-1.11.0.min.js"></script>
+    <script src="scripts/slideshow.js"></script>
+
+     <!-- Enlevez les balises de commentaire des modules d'extension dont vous aurez besoin --!>
+    <script src="scripts/plugins/css-edit.js"></script>
+    <script src="scripts/plugins/css-snippets.js"></script>
+    <script src="scripts/plugins/css-controls.js"></script>
+    <!-- <script src="plugins/code-highlight.js"></script>-->
+
+    <script src="scripts/plugins/markdown/marked.js"></script>
+    <script src="scripts/plugins/markdown/markdown.js"></script>
+    <script src="scripts/plugins/highlight/highlight-8.4.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scripts/llc.js"></script>
+    <script>
+      var slideshow = new SlideShow();
+
+      // Sélectionne tous les éléments .snippet
+      var snippets = document.querySelectorAll('.snippet');
+      for(var i=0; i<snippets.length; i++) {
+        new CSSSnippet(snippets[i]);
+      }
+    </script>
+  </body>
+</html>
