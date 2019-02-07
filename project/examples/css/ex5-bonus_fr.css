@@ -1,25 +1,21 @@
-/* GLOBAL STYLES
+/* STYLES GLOBAUX
 -----------------------------------------*/
-html,
-body {
-  height: 100%;
-}
 body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  color: #333333; /* dark, almost black, gray colour */
+  color: #333333; /* gris presque noir */
 }
 h1,
 h2 {
   font-family: "Nixie One", serif;
-  font-weight: 300; /* removes default bold styles */
+  font-weight: 300; /* enlève le style gras par défaut */
   text-transform: uppercase;
-  margin: 0; /* removes default space */
+  margin: 0; /* enlève l'espace par défaut */
 }
 a {
   color: #bf6d50;
-  text-decoration: none; /* removes default underline */
+  text-decoration: none; /* enlève le soulignement par défaut */
 }
 header,
 main,
@@ -31,7 +27,7 @@ main {
 }
 
 
-/* HEADER STYLES
+/* STYLES D'EN-TÊTE
 -----------------------------------------*/
 header h1 {
   font-size: 48px;
@@ -49,16 +45,10 @@ nav a {
   padding: 20px;
 }
 
-/* HOME PAGE STYLES
------------------------------------------*/ 
-.home {
-  background: url(../images/background-6.jpg) no-repeat 50%;
-  background-size: cover;
-}
 
-/* ABOUT STYLES
+/* STYLES DE PAGE D'ACCUEIL
 -----------------------------------------*/
-.profile-img {
+.image-profil {
   float: left;
   margin-right: 20px;
 }
@@ -71,5 +61,3 @@ blockquote p {
   font-family: "Pacifico", cursive;
   font-size: 30px;
 }
-
-
