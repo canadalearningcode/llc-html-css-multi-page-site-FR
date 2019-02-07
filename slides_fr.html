@@ -794,19 +794,21 @@
       <script type="text/template">
         #Navigation
 
-        Les balises nav et header dans **index_fr.html** devraient maintenant ressembler à ceci :
+        Les balises nav et header dans **index.html** devraient maintenant ressembler à ceci :
 
         ```
         <header>
-          <h1>Jane Smith</h1>
-          <h2>Web Developer + City Girl</h2>
-        </header>
+          <div>
+            <h1>Jane Smith</h1>
+            <h2>Web Developer + City Girl</h2>
+          </div>
 
-        <nav>
-          <a href="index_fr.html">Index</a>
-          <a href="apropos_fr.html">À propos</a>
-          <a href="contact_fr.html">Contact</a>
-        </nav>
+          <nav>
+            <a href="index.html">Accueil</a>
+            <a href="apropos.html">À propos</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </header>
         ```
       </script>
     </section>
@@ -969,24 +971,24 @@
 
         La balise `<main>` (principal) peut être utilisée pour représenter le contenu principal du document. De plus, il est possible d'ajouter l'attribut `role="main"` pour aider les logiciels de lecture d'écran à comprendre où se trouve le contenu principal.
 
-        ```
-        <header>
-        ...contenu
-        </header>
+          ```
+          <header>
+            ...contenu
 
-        <nav>
-          ...contenu
-        </nav>
+            <nav>
+              ...contenu
+            </nav>
+          </header>
 
-        <main role="main">
-        ...contenu
-        </main>
+          <main role="main">
+            ...contenu
+          </main>
 
-        <footer>
-        ...contenu
-        </footer>
-        ```
-
+          <footer>
+            ...contenu
+          </footer>
+          ```
+Disposition de page
         Il faut utiliser cette balise seulement une fois dans chaque page, et nous en aurons besoin pour le prochain exercice.
 
         ---
@@ -1831,15 +1833,14 @@ text-transform: lowercase;</textarea>
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Disposition de la page : float, display et flexbox
+        #Disposition de page : FLEXBOX ET FLOAT
 
-        Il y a quelques options différentes pour créer une disposition de page.
+        Il y a quelques façons de disposer du contenu sur une page Web.
 
-        Les options `display` (affichage) et `float` (flottement) sont les plus courantes. Celles-ci peuvent être employées pour changer la position des éléments, mais elles ont toutes les deux leurs avantages et leurs désavantages.
+        Nous utiliserons deux façons : `flexbox` et `float`.
 
-        L'option la plus récente est `flexbox` (boîte flexible), mais elle n'est supportée que par les versions 10 et plus récentes d'Internet Explorer (Edge). Elle n'est pas supportée par la version 9 et celles plus anciennes.
-
-        Aujourd'hui, nous utiliserons `float`. Consultez les ressources ci-dessus pour obtenir plus d'informations.
+        * `flexbox` change la position et l’alignement des conteneurs sur notre page.
+        * De son côté, `float` permet au texte et aux images de partager l'espace de leur conteneur « parent ».
 
         ---
         ###Ressources (en anglais)
@@ -1852,13 +1853,14 @@ text-transform: lowercase;</textarea>
 
     <section class="slide" data-markdown>
       <script type="text/template">
-        #Propriété CSS : float
+        #Flexbox
 
-        La propriété `float` est une manière d'enligner les éléments block les uns à côté des autres. Toutefois, pour utiliser `float`, la disposition naturelle de la page doit être *brisée*.
+        En utilisant Flexbox, nous devons d'abord déterminer quel est le conteneur qui servira de conteneur `flex parent` en ajoutant une déclaration `display: flex;` dans notre fichier CSS.
 
-        <img class="delayed" src="framework/img/workshop/huh.gif">
+        Lorsque le conteneur flex parent sera déclaré, il nous sera possible de changer l’orientation, l'alignement et la position de tous les éléments « enfants ».
 
-        <p class="delayed">Ne vous inquiétez pas, nous allons la réparer.</p>
+        Nous utiliserons cette technique pour changer le style de `<header>` de notre site.
+
       </script>
     </section>
 
