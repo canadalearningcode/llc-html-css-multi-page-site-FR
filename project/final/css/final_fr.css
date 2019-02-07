@@ -1,11 +1,11 @@
 /* ----------------------------------------------------
-  Created by Christina Truong for Ladies Learning Code
+  Créé par Christina Truong pour Ladies Learning Code
   http://ladieslearningcode.com
   http://christinatruong.com
 -------------------------------------------------------*/
 
 
-/* GLOBAL STYLES
+/* STYLES GLOBAUX
 -----------------------------------------*/
 html,
 body {
@@ -15,18 +15,18 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  color: #333333; /* dark, almost black, gray colour */
+  color: #333333; /* gris, presque noir */
 }
 h1,
 h2 {
   font-family: "Nixie One", serif;
-  font-weight: 300; /* removes default bold styles */
+  font-weight: 300; /* enlève le style gras par défaut */
   text-transform: uppercase;
-  margin: 0; /* removes default space */
+  margin: 0; /* enlève l'espace par défaut */
 }
 a {
   color: #bf6d50;
-  text-decoration: none; /* removes default underline */
+  text-decoration: none; /* enlève le soulignement par défaut */
 }
 a:hover {
   background: rgba(255, 255, 255, 0.3);
@@ -39,12 +39,12 @@ nav {
 main {
   clear: both;
 }
-.highlight {
+.surligner {
   color: #bf6d50;
 }
 
 
-/* HEADER STYLES
+/* STYLES D'EN-TÊTE
 -----------------------------------------*/
 header h1 {
   font-size: 48px;
@@ -62,16 +62,16 @@ nav a {
   padding: 20px;
 }
 
-/* HOME PAGE STYLES
+/* STYLES DE LA PAGE D'ACCUEIL
 -----------------------------------------*/ 
-.home {
+.accueil {
   background: url(../images/background-6.jpg) no-repeat 50%;
   background-size: cover;
 }
 
-/* ABOUT STYLES
+/* STYLES DE LA PAGE À PROPOS
 -----------------------------------------*/
-.profile-img {
+.image-profil {
   float: left;
   margin-right: 20px;
   width: 50%;
@@ -86,7 +86,7 @@ blockquote p {
   font-size: 30px;
 }
 
-/* CONTACT STYLES
+/* STYLES DE LA PAGE DE CONTACT
 -----------------------------------------*/
 .contact {
   background: url(../images/background-8.jpg) no-repeat 50%;
@@ -101,7 +101,7 @@ blockquote p {
   text-transform: none;
 }
 
-/* form styles */
+/* styles du formulaire */
 form {
   width: 400px;
 }
@@ -125,12 +125,12 @@ button {
 }
 
 
-/* FOOTER STYLES
+/* STYLES DU BAS DE PAGE
 -----------------------------------------*/
-/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
+/* Bas de page épinglé - http://css-tricks.com/snippets/css/sticky-footer */
 .page-wrap {
   min-height: 100%;
-  margin-bottom: -55px; /* must be the same height as footer */
+  margin-bottom: -55px; /* doit être de la même hauteur que le bas de page */
 }
 .page-wrap:after {
   content: "";
@@ -138,7 +138,7 @@ button {
 }
 footer, 
 .page-wrap:after {
-  height: 55px; /* however tall you want the footer to be */
+  height: 55px; /* bas de page de la hauteur que vous voulez */
 }
 footer {
   background: rgba(255, 255, 255, 0.8);
